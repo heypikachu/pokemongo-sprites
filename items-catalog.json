@@ -1,35 +1,80 @@
 {
   "schema_version": 1,
-  "notes": "All 164 images are listed. Only verified item IDs are searchable by semantic slug. Unreviewed technical IDs are deliberately not guessed. Image URLs remain unchanged.",
+  "notes": "All 164 images listed. Status verified = cross-checked numeric ID; source_named = semantic label directly supported by descriptive source filename (including distinct pack/alternate images); needs_review = do not guess. Existing WebP paths unchanged.",
   "item_count": 164,
-  "verified_count": 6,
+  "verified_count": 51,
   "by_slug": {
     "potion": "items/item-0101.webp",
     "super-potion": "items/item-0102.webp",
     "hyper-potion": "items/item-0103.webp",
     "max-potion": "items/item-0104.webp",
     "revive": "items/item-0201.webp",
-    "max-revive": "items/item-0202.webp"
+    "max-revive": "items/item-0202.webp",
+    "dragon-scale": "items/bag-dragon-scale.webp",
+    "kings-rock": "items/bag-king-s-rock.webp",
+    "metal-coat": "items/bag-metal-coat.webp",
+    "sinnoh-stone": "items/bag-sinnoh-stone.webp",
+    "sun-stone": "items/bag-sun-stone.webp",
+    "unova-stone": "items/bag-unova-stone.webp",
+    "up-grade": "items/bag-up-grade.webp",
+    "beast-ball": "items/beastball.webp",
+    "pokemon-candy-alt": "items/candy-rgb.webp",
+    "daily-adventure-incense": "items/dailywalking-incense.webp",
+    "egg-10km": "items/egg-10km.webp",
+    "egg-12km": "items/egg-12km-tr.webp",
+    "egg-2km": "items/egg-2km.webp",
+    "egg-5km": "items/egg-5km.webp",
+    "egg-7km": "items/egg-7km.webp",
+    "great-ball": "items/greatball.webp",
+    "super-rocket-radar": "items/item-giovanni-mapcompass.webp",
+    "volt-fusion-energy": "items/item-kyuremblackfusionresource.webp",
+    "blaze-fusion-energy": "items/item-kyuremwhitefusionresource.webp",
+    "rocket-radar": "items/item-leader-mapcompass.webp",
+    "meteorite": "items/item-meteorite.webp",
+    "zygarde-cell": "items/item-route-cell.webp",
+    "zygarde-cube": "items/item-route-cube.webp",
+    "shadow-shard": "items/item-shadowfragment.webp",
+    "purified-gem": "items/item-shadowgem.webp",
+    "item-bag-upgrade": "items/itemstorageupgrade-1.webp",
+    "lucky-egg-pack-20": "items/luckyegg-20.webp",
+    "lucky-egg-pack-5": "items/luckyegg-5.webp",
+    "lucky-egg": "items/luckyegg.webp",
+    "master-ball": "items/masterball.webp",
+    "max-particles-pack": "items/mp-pack.webp",
+    "poffin-pack-3": "items/poffin-3.webp",
+    "poffin-pack-5": "items/poffin-5.webp",
+    "poke-ball": "items/pokeball.webp",
+    "pokemon-candy": "items/pokemon-details-candy.webp",
+    "mega-energy": "items/pokemon-details-mega-candy.webp",
+    "pokemon-storage-upgrade": "items/pokemonstorageupgrade-1.webp",
+    "premier-ball": "items/premierball.webp",
+    "rare-candy-xl": "items/rarexlcandy-psd.webp",
+    "star-piece-pack-25": "items/starpiece-25.webp",
+    "star-piece-pack-8": "items/starpiece-8.webp",
+    "star-piece": "items/starpiece.webp",
+    "purified-gem-alt": "items/tx-shadow-crystal.webp",
+    "shadow-shard-alt": "items/tx-shadow-shard.webp",
+    "ultra-ball": "items/ultraball.webp"
   },
   "items": [
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "dragon-scale",
+      "name_en": "Dragon Scale",
+      "status": "source_named",
       "original": "Bag_Dragon_Scale_Sprite.png",
       "webp": "items/bag-dragon-scale.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "kings-rock",
+      "name_en": "King's Rock",
+      "status": "source_named",
       "original": "Bag_King's_Rock_Sprite.png",
       "webp": "items/bag-king-s-rock.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "metal-coat",
+      "name_en": "Metal Coat",
+      "status": "source_named",
       "original": "Bag_Metal_Coat_Sprite.png",
       "webp": "items/bag-metal-coat.webp"
     },
@@ -41,86 +86,86 @@
       "webp": "items/bag-other-stone-a.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "sinnoh-stone",
+      "name_en": "Sinnoh Stone",
+      "status": "source_named",
       "original": "Bag_Sinnoh_Stone_Sprite.png",
       "webp": "items/bag-sinnoh-stone.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "sun-stone",
+      "name_en": "Sun Stone",
+      "status": "source_named",
       "original": "Bag_Sun_Stone_Sprite.png",
       "webp": "items/bag-sun-stone.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "unova-stone",
+      "name_en": "Unova Stone",
+      "status": "source_named",
       "original": "Bag_Unova_Stone_Sprite.png",
       "webp": "items/bag-unova-stone.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "up-grade",
+      "name_en": "Up-Grade",
+      "status": "source_named",
       "original": "Bag_Up-Grade_Sprite.png",
       "webp": "items/bag-up-grade.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "beast-ball",
+      "name_en": "Beast Ball",
+      "status": "source_named",
       "original": "beastball_sprite.png",
       "webp": "items/beastball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "pokemon-candy-alt",
+      "name_en": "Pokémon Candy alternate icon",
+      "status": "source_named",
       "original": "candy_rgb.png",
       "webp": "items/candy-rgb.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "daily-adventure-incense",
+      "name_en": "Daily Adventure Incense",
+      "status": "source_named",
       "original": "dailyWalking_incense.png",
       "webp": "items/dailywalking-incense.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-10km",
+      "name_en": "10 km Egg",
+      "status": "source_named",
       "original": "Egg_10km.png",
       "webp": "items/egg-10km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-12km",
+      "name_en": "12 km Egg",
+      "status": "source_named",
       "original": "Egg_12km_TR.png",
       "webp": "items/egg-12km-tr.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-2km",
+      "name_en": "2 km Egg",
+      "status": "source_named",
       "original": "Egg_2km.png",
       "webp": "items/egg-2km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-5km",
+      "name_en": "5 km Egg",
+      "status": "source_named",
       "original": "Egg_5km.png",
       "webp": "items/egg-5km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-7km",
+      "name_en": "7 km Egg",
+      "status": "source_named",
       "original": "Egg_7km.png",
       "webp": "items/egg-7km.webp"
     },
@@ -300,9 +345,9 @@
       "webp": "items/giovanni-map-compass-base-fix.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "great-ball",
+      "name_en": "Great Ball",
+      "status": "source_named",
       "original": "greatball_sprite.png",
       "webp": "items/greatball.webp"
     },
@@ -664,30 +709,30 @@
       "webp": "items/item-coin-stack-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "super-rocket-radar",
+      "name_en": "Super Rocket Radar",
+      "status": "source_named",
       "original": "Item_Giovanni_MapCompass.png",
       "webp": "items/item-giovanni-mapcompass.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "volt-fusion-energy",
+      "name_en": "Volt Fusion Energy",
+      "status": "source_named",
       "original": "item_kyuremBlackFusionResource.png",
       "webp": "items/item-kyuremblackfusionresource.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "blaze-fusion-energy",
+      "name_en": "Blaze Fusion Energy",
+      "status": "source_named",
       "original": "item_kyuremWhiteFusionResource.png",
       "webp": "items/item-kyuremwhitefusionresource.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "rocket-radar",
+      "name_en": "Rocket Radar",
+      "status": "source_named",
       "original": "Item_Leader_MapCompass.png",
       "webp": "items/item-leader-mapcompass.webp"
     },
@@ -713,9 +758,9 @@
       "webp": "items/item-maple-c.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "meteorite",
+      "name_en": "Meteorite",
+      "status": "source_named",
       "original": "Item_Meteorite.png",
       "webp": "items/item-meteorite.webp"
     },
@@ -734,37 +779,37 @@
       "webp": "items/item-postcardstorageupgrade-1.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "zygarde-cell",
+      "name_en": "Zygarde Cell",
+      "status": "source_named",
       "original": "item_route_cell.png",
       "webp": "items/item-route-cell.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "zygarde-cube",
+      "name_en": "Zygarde Cube",
+      "status": "source_named",
       "original": "item_route_cube.png",
       "webp": "items/item-route-cube.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "shadow-shard",
+      "name_en": "Shadow Shard",
+      "status": "source_named",
       "original": "Item_ShadowFragment.png",
       "webp": "items/item-shadowfragment.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "purified-gem",
+      "name_en": "Purified Gem",
+      "status": "source_named",
       "original": "Item_ShadowGem.png",
       "webp": "items/item-shadowgem.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-bag-upgrade",
+      "name_en": "Item Bag Upgrade",
+      "status": "source_named",
       "original": "itemstorageupgrade.1.png",
       "webp": "items/itemstorageupgrade-1.webp"
     },
@@ -790,23 +835,23 @@
       "webp": "items/lucky-friend-applicator.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "lucky-egg-pack-20",
+      "name_en": "Lucky Egg 20-pack image",
+      "status": "source_named",
       "original": "luckyegg.20.png",
       "webp": "items/luckyegg-20.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "lucky-egg-pack-5",
+      "name_en": "Lucky Egg 5-pack image",
+      "status": "source_named",
       "original": "luckyegg.5.png",
       "webp": "items/luckyegg-5.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "lucky-egg",
+      "name_en": "Lucky Egg",
+      "status": "source_named",
       "original": "luckyegg.png",
       "webp": "items/luckyegg.webp"
     },
@@ -825,9 +870,9 @@
       "webp": "items/maple-tappable-icon.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "master-ball",
+      "name_en": "Master Ball",
+      "status": "source_named",
       "original": "masterball_sprite.png",
       "webp": "items/masterball.webp"
     },
@@ -853,23 +898,23 @@
       "webp": "items/mp-pack-mulit.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "max-particles-pack",
+      "name_en": "Max Particles Pack image",
+      "status": "source_named",
       "original": "mp_pack.png",
       "webp": "items/mp-pack.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "poffin-pack-3",
+      "name_en": "Poffin 3-pack image",
+      "status": "source_named",
       "original": "poffin.3.png",
       "webp": "items/poffin-3.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "poffin-pack-5",
+      "name_en": "Poffin 5-pack image",
+      "status": "source_named",
       "original": "poffin.5.png",
       "webp": "items/poffin-5.webp"
     },
@@ -895,9 +940,9 @@
       "webp": "items/pokeball-store.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "poke-ball",
+      "name_en": "Poké Ball",
+      "status": "source_named",
       "original": "pokeball_sprite.png",
       "webp": "items/pokeball.webp"
     },
@@ -909,37 +954,37 @@
       "webp": "items/pokemon-center.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "pokemon-candy",
+      "name_en": "Pokémon Candy icon",
+      "status": "source_named",
       "original": "pokemon_details_candy.png",
       "webp": "items/pokemon-details-candy.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "mega-energy",
+      "name_en": "Mega Energy icon",
+      "status": "source_named",
       "original": "pokemon_details_mega_candy.png",
       "webp": "items/pokemon-details-mega-candy.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "pokemon-storage-upgrade",
+      "name_en": "Pokémon Storage Upgrade",
+      "status": "source_named",
       "original": "pokemonstorageupgrade.1.png",
       "webp": "items/pokemonstorageupgrade-1.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "premier-ball",
+      "name_en": "Premier Ball",
+      "status": "source_named",
       "original": "premierball_sprite.png",
       "webp": "items/premierball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "rare-candy-xl",
+      "name_en": "Rare Candy XL",
+      "status": "source_named",
       "original": "RareXLCandy_PSD.png",
       "webp": "items/rarexlcandy-psd.webp"
     },
@@ -986,23 +1031,23 @@
       "webp": "items/stardust-vector.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "star-piece-pack-25",
+      "name_en": "Star Piece 25-pack image",
+      "status": "source_named",
       "original": "starpiece.25.png",
       "webp": "items/starpiece-25.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "star-piece-pack-8",
+      "name_en": "Star Piece 8-pack image",
+      "status": "source_named",
       "original": "starpiece.8.png",
       "webp": "items/starpiece-8.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "star-piece",
+      "name_en": "Star Piece",
+      "status": "source_named",
       "original": "starpiece.png",
       "webp": "items/starpiece.webp"
     },
@@ -1119,23 +1164,23 @@
       "webp": "items/tx-followeritemfx.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "purified-gem-alt",
+      "name_en": "Purified Gem alternate icon",
+      "status": "source_named",
       "original": "tx_shadow_crystal.png",
       "webp": "items/tx-shadow-crystal.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "shadow-shard-alt",
+      "name_en": "Shadow Shard alternate icon",
+      "status": "source_named",
       "original": "tx_shadow_shard.png",
       "webp": "items/tx-shadow-shard.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "ultra-ball",
+      "name_en": "Ultra Ball",
+      "status": "source_named",
       "original": "ultraball_sprite.png",
       "webp": "items/ultraball.webp"
     },
@@ -1160,5 +1205,10 @@
       "original": "WonderBox.png",
       "webp": "items/wonderbox.webp"
     }
-  ]
+  ],
+  "status_counts": {
+    "source_named": 45,
+    "needs_review": 113,
+    "verified": 6
+  }
 }
