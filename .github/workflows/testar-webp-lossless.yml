@@ -38,7 +38,8 @@ jobs:
             dest="${dest%.png}.webp"
             cwebp -quiet -lossless -exact -m 6 "$src" -o "$dest"
             diff_pixels=$(compare -metric AE "$src" "$dest" null: 2>&1) || result=$?
-            if [ "${result:-0}" -gt 1 ] || [ "$diff_pixels" != "0" ]; then
+            diff_count=$(printf "%s\n" "$diff_pixels" | awk '{print $1}')
+            if [ "${result:-0}" -gt 1 ] || [ "$diff_count" != "0" ]; then
               echo "ERRO: pixels diferentes ou falha ao comparar $src: $diff_pixels"
               exit 1
             fi
