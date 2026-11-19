@@ -1,0 +1,78 @@
+name: Importar itens Pokemon GO WebP lossless
+
+on:
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: "Publicar itens na branch main? Desmarcado = somente validar"
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pokemon-go-items-import
+  cancel-in-progress: false
+
+jobs:
+  importar-itens:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout HeyPikachu
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Checkout PokeMiners Images/Items
+        uses: actions/checkout@v4
+        with:
+          repository: PokeMiners/pogo_assets
+          ref: master
+          path: upstream
+          sparse-checkout: |
+            Images/Items
+          sparse-checkout-cone-mode: true
+          persist-credentials: false
+
+      - name: Instalar WebP e Pillow
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if sudo apt-get update -qq &&
+               sudo apt-get install -y webp &&
+               python -m pip install --disable-pip-version-check pillow; then
+              exit 0
+            fi
+            echo "Instalação falhou na tentativa $attempt"
+            sleep 15
+          done
+          exit 1
+
+      - name: Converter, renomear e validar os itens
+        run: python scripts/importar_itens_pokemongo.py
+
+      - name: Disponibilizar manifesto de validação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manifest-itens-pokemon-go
+          path: items-manifest.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Publicar somente quando solicitado
+        if: ${{ inputs.publicar }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- items/ items-manifest.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração"
+            exit 0
+          fi
+          git commit -m "Importar icones de itens Pokemon GO em WebP lossless"
+          git push
