@@ -1,0 +1,61 @@
+name: Importar Pokemon GO WebP lossless
+on:
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: "Publicar sprites no repositório? Desmarcado = somente validar"
+        type: boolean
+        required: true
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: pokemon-go-sprites-import
+  cancel-in-progress: false
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout HeyPikachu
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Checkout PokeMiners Images/Pokemon
+        uses: actions/checkout@v4
+        with:
+          repository: PokeMiners/pogo_assets
+          ref: master
+          path: upstream
+          sparse-checkout: |
+            Images/Pokemon
+          sparse-checkout-cone-mode: true
+          persist-credentials: false
+      - name: Instalar encoder WebP e Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y webp
+          python -m pip install --disable-pip-version-check pillow
+      - name: Converter e validar os sprites
+        run: python scripts/importar_pokemongo.py --source upstream
+      - name: Disponibilizar manifesto da importação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manifest-pokemon-go
+          path: manifest.json
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Publicar somente quando solicitado
+        if: ${{ inputs.publicar }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- normal/ shiny/ costumes/ forms/ unclassified/ manifest.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração"
+            exit 0
+          fi
+          git commit -m "Importar sprites Pokemon GO em WebP lossless"
+          git push
