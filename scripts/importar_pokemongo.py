@@ -9,18 +9,28 @@ from pathlib import Path
 from PIL import Image, ImageChops
 
 LEGACY = re.compile(r"pokemon_icon_(\d+)_(\d+)(.*?)\.png$", re.I)
-NEW = re.compile(r"pm(\d+)(.*?)\.(s\.)?icon\.png$", re.I)
+NEW = re.compile(r"pm(\d+)(.*?)\.(s\.)?(icon|portrait)\.png$", re.I)
+OLD_COSTUME = re.compile(r"pokemon_icon_pm(\d+)_(\d+)_(.+?)\.png$", re.I)
 ALIASES = {"galarian":"galar", "alolan":"alola", "hisuian":"hisui", "paldean":"paldea", "mega_x":"mega-x", "mega_y":"mega-y"}
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 def parse(p):
     m = NEW.fullmatch(p.name)
     if m:
-        num, tail, shiny = m.groups()
+        num, tail, shiny, image_type = m.groups()
         parts = re.findall(r"\.([a-zA-Z])([^.]*)", tail)
-        label = "-".join(slug(ALIASES.get(v.lower(), v)) if k.lower()=="f" else slug(k+"-"+v) for k,v in parts)
+        label = "-".join(slug(ALIASES.get(v.lower(), v)) if k.lower()=="f" and v else slug(k+"-"+(v or "unspecified")) for k,v in parts)
+        if image_type.lower()=="portrait":
+            return int(num), bool(shiny), label+"-portrait" if label else "portrait", "portraits", "addressable"
         kind = "costumes" if any(k.lower()=="c" for k,v in parts) else "forms" if parts else "normal"
         return int(num), bool(shiny), label, kind, "addressable"
+    m = OLD_COSTUME.fullmatch(p.name)
+    if m:
+        num, form, description = m.groups()
+        shiny = description.lower().endswith("_shiny")
+        description = re.sub(r"_shiny$", "", description, flags=re.I)
+        label = slug(description) + ("" if form=="00" else "-form-"+str(int(form)))
+        return int(num), shiny, label, "costumes", "legacy-costume"
     m = LEGACY.fullmatch(p.name)
     if m:
         num, form, tail = m.groups()
@@ -49,7 +59,7 @@ def main():
         previous=json.loads(manifest.read_text(encoding="utf-8"))
         for rec in previous.get("sprites",[]):
             dest=Path(rec["output"])
-            if dest.parts and dest.parts[0] in ("normal","shiny","forms","costumes","unclassified") and dest.suffix==".webp" and dest.is_file():
+            if dest.parts and dest.parts[0] in ("normal","shiny","forms","costumes","portraits","unclassified") and dest.suffix==".webp" and dest.is_file():
                 dest.unlink()
     used={}
     records=[]
@@ -59,7 +69,7 @@ def main():
         base=str(num) if num is not None else slug(src.relative_to(source).with_suffix("").as_posix())
         if label: base+="-"+label
         folder=("shiny" if shiny else "normal") if kind in ("normal","forms") else kind
-        if shiny and folder in ("costumes","unclassified"): base+="-shiny"
+        if shiny and folder in ("costumes","portraits","unclassified"): base+="-shiny"
         rel=folder+"/"+base+".webp"
         current=pixels(src)
         alias=False
