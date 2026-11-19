@@ -1,0 +1,1485 @@
+{
+  "schema_version": 1,
+  "source": "https://github.com/PokeMiners/pogo_assets/tree/master/Images/Items",
+  "source_commit": "db10df75d6f6f92018d9786af0aecc238fecc4ef",
+  "encoding": "WebP lossless -exact; RGBA pixels and dimensions verified",
+  "item_count": 164,
+  "items": [
+    {
+      "original": "Bag_Dragon_Scale_Sprite.png",
+      "output": "items/bag-dragon-scale.webp",
+      "width": 154,
+      "height": 143,
+      "png_bytes": 23201,
+      "webp_bytes": 13214,
+      "sha256_webp": "46cb9749e4f6eb567a809ae92888169ed7cc7df1501387bedaac9c8cbe63c651"
+    },
+    {
+      "original": "Bag_King's_Rock_Sprite.png",
+      "output": "items/bag-king-s-rock.webp",
+      "width": 199,
+      "height": 171,
+      "png_bytes": 35751,
+      "webp_bytes": 22902,
+      "sha256_webp": "025f545e8230df0f5ad503fdfac2e80d7bad5a6dd8d4e2e69bae5858f227c89e"
+    },
+    {
+      "original": "Bag_Metal_Coat_Sprite.png",
+      "output": "items/bag-metal-coat.webp",
+      "width": 158,
+      "height": 190,
+      "png_bytes": 48486,
+      "webp_bytes": 22382,
+      "sha256_webp": "96ea67eb2fcbd9ecb9d931704173c1e9077ad085a64ec8e36d394a11ec0d3b57"
+    },
+    {
+      "original": "Bag_Other_Stone_A_Sprite.png",
+      "output": "items/bag-other-stone-a.webp",
+      "width": 225,
+      "height": 151,
+      "png_bytes": 48371,
+      "webp_bytes": 35782,
+      "sha256_webp": "ff2b4aa983a3f9171ed5faaf4ea02adb688aeaea9c6f426f44a341ed37abd057"
+    },
+    {
+      "original": "Bag_Sinnoh_Stone_Sprite.png",
+      "output": "items/bag-sinnoh-stone.webp",
+      "width": 165,
+      "height": 243,
+      "png_bytes": 38509,
+      "webp_bytes": 20552,
+      "sha256_webp": "7fe949499e95f85e0a623e9e41af376e28c3f4db0845166e9ab54d90f4902be7"
+    },
+    {
+      "original": "Bag_Sun_Stone_Sprite.png",
+      "output": "items/bag-sun-stone.webp",
+      "width": 161,
+      "height": 168,
+      "png_bytes": 25890,
+      "webp_bytes": 20634,
+      "sha256_webp": "1da89fe475b2467996e5b1e479898920fcc4e50d47fea47939b9cb28567c9e32"
+    },
+    {
+      "original": "Bag_Unova_Stone_Sprite.png",
+      "output": "items/bag-unova-stone.webp",
+      "width": 167,
+      "height": 205,
+      "png_bytes": 45831,
+      "webp_bytes": 24178,
+      "sha256_webp": "72c22ee4e1db021a51bf8524e4fa45d8c03125e73e0917b22f21cc7cb5e18054"
+    },
+    {
+      "original": "Bag_Up-Grade_Sprite.png",
+      "output": "items/bag-up-grade.webp",
+      "width": 237,
+      "height": 109,
+      "png_bytes": 24210,
+      "webp_bytes": 17158,
+      "sha256_webp": "df4c3856c2ea6e603f672a5741b566683fc057ebf3769cd59b2ba0fb15446cb2"
+    },
+    {
+      "original": "beastball_sprite.png",
+      "output": "items/beastball.webp",
+      "width": 195,
+      "height": 194,
+      "png_bytes": 46970,
+      "webp_bytes": 32152,
+      "sha256_webp": "46fa5d265807813660b10127b7569ab6b66da9a7a07635f225f66a4d916434e2"
+    },
+    {
+      "original": "candy_rgb.png",
+      "output": "items/candy-rgb.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 43036,
+      "webp_bytes": 27974,
+      "sha256_webp": "32102e24cdff0345ae54a854012169e5cb7c46e61154c1c3efcdd77d1d07245a"
+    },
+    {
+      "original": "dailyWalking_incense.png",
+      "output": "items/dailywalking-incense.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 55206,
+      "webp_bytes": 31906,
+      "sha256_webp": "cbe0181c97675b933ede60d6c0c5931f35e0bc5fab72eb81b0b66d897ddd59e7"
+    },
+    {
+      "original": "Egg_10km.png",
+      "output": "items/egg-10km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 8733,
+      "webp_bytes": 5768,
+      "sha256_webp": "74baf7c27367c61ed169803b8db6bac8ff90af44d35401afd815120c860a9047"
+    },
+    {
+      "original": "Egg_12km_TR.png",
+      "output": "items/egg-12km-tr.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 7777,
+      "webp_bytes": 5266,
+      "sha256_webp": "c2092b06db1a7f54715c687cc168aa1ffb2fa5cfd838a8c19d15a0cc72a4fbc4"
+    },
+    {
+      "original": "Egg_2km.png",
+      "output": "items/egg-2km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 8160,
+      "webp_bytes": 5204,
+      "sha256_webp": "a90934f7c8fa0073a5d2311b6d550110bc91eb6f418b8c3dd04c6dd2f87f9b7d"
+    },
+    {
+      "original": "Egg_5km.png",
+      "output": "items/egg-5km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 8516,
+      "webp_bytes": 5718,
+      "sha256_webp": "1d594fd9332ec8f6726ff3d4967686e1f46a7a5ebe25abbedc4429e6eef2f432"
+    },
+    {
+      "original": "Egg_7km.png",
+      "output": "items/egg-7km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 8864,
+      "webp_bytes": 6242,
+      "sha256_webp": "a0f4c22324d12be2dc32b1cfe09ea55e7dc1f3cc5c39341bea4b3745c8246bc5"
+    },
+    {
+      "original": "Egg_A.png",
+      "output": "items/egg-a.webp",
+      "width": 71,
+      "height": 87,
+      "png_bytes": 8490,
+      "webp_bytes": 4212,
+      "sha256_webp": "ddc0e4c8c558e99842df462d69651340db055030e35d2781b249882c51ea4bad"
+    },
+    {
+      "original": "Egg_B.png",
+      "output": "items/egg-b.webp",
+      "width": 71,
+      "height": 87,
+      "png_bytes": 8651,
+      "webp_bytes": 4432,
+      "sha256_webp": "20581cc79908fd635a6740d0b19add2877b8097cbc997fcb7121fb62c5359fa3"
+    },
+    {
+      "original": "Egg_C.png",
+      "output": "items/egg-c.webp",
+      "width": 71,
+      "height": 87,
+      "png_bytes": 8669,
+      "webp_bytes": 4432,
+      "sha256_webp": "07b93860700bfe3ccada143023d7b3a5b2e3c2d5930bdaf93f985240a78feb45"
+    },
+    {
+      "original": "Egg_D.png",
+      "output": "items/egg-d.webp",
+      "width": 71,
+      "height": 87,
+      "png_bytes": 8907,
+      "webp_bytes": 4896,
+      "sha256_webp": "54817f1ed4308b6a14166143001c93f57869ed63257822dce0176d88fdec5068"
+    },
+    {
+      "original": "Egg_TR.png",
+      "output": "items/egg-tr.webp",
+      "width": 71,
+      "height": 87,
+      "png_bytes": 8119,
+      "webp_bytes": 4438,
+      "sha256_webp": "74b643ef8b0aae1756dba6cd6ec095033a3f8202d00269ae3a1bedfeb38fb239"
+    },
+    {
+      "original": "EggIncubator_Egg_10km.png",
+      "output": "items/eggincubator-egg-10km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 4797,
+      "webp_bytes": 3242,
+      "sha256_webp": "78d3f9fb32798b9f000b59916dde2997c8bca25d7a95f5ab9c9502a837a3b6cf"
+    },
+    {
+      "original": "EggIncubator_Egg_2km.png",
+      "output": "items/eggincubator-egg-2km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 4544,
+      "webp_bytes": 3062,
+      "sha256_webp": "f7cb3e1ae4802ff8efa21d1047da0295fafc84a3d31410dacea6c312152271df"
+    },
+    {
+      "original": "EggIncubator_Egg_5km.png",
+      "output": "items/eggincubator-egg-5km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 4556,
+      "webp_bytes": 3182,
+      "sha256_webp": "e4ad89bf4b1b81d19d3bd707de124691d18ea51543f078f3d549428a75753ea2"
+    },
+    {
+      "original": "EggIncubator_Egg_7km.png",
+      "output": "items/eggincubator-egg-7km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 4179,
+      "webp_bytes": 2982,
+      "sha256_webp": "98eb795cc1f9afb20d3643b70d71e1eb89f94b1c94706211d84037cf06fa3289"
+    },
+    {
+      "original": "EggIncubator_Egg_A.png",
+      "output": "items/eggincubator-egg-a.webp",
+      "width": 44,
+      "height": 53,
+      "png_bytes": 4536,
+      "webp_bytes": 3046,
+      "sha256_webp": "e37730a288869879c9193b5601ad5ab53e6921a66133b052d3d201bd86018a59"
+    },
+    {
+      "original": "EggIncubator_Egg_B.png",
+      "output": "items/eggincubator-egg-b.webp",
+      "width": 44,
+      "height": 53,
+      "png_bytes": 4460,
+      "webp_bytes": 3116,
+      "sha256_webp": "089435d794347056f3f3fc448b3ff11e8d98f573af2b0cd3e9fc2d0b62c28cc7"
+    },
+    {
+      "original": "EggIncubator_Egg_C.png",
+      "output": "items/eggincubator-egg-c.webp",
+      "width": 44,
+      "height": 53,
+      "png_bytes": 4468,
+      "webp_bytes": 2906,
+      "sha256_webp": "a4fb59c36e132c203d60c97df19d8fbaa3e7601764a2cabda58b374c298c6e54"
+    },
+    {
+      "original": "EggIncubator_Egg_D.png",
+      "output": "items/eggincubator-egg-d.webp",
+      "width": 44,
+      "height": 53,
+      "png_bytes": 4363,
+      "webp_bytes": 3014,
+      "sha256_webp": "23b153ae98d9e860b91746eb5fb072cb149075a12a3e91a604edf8e8cc99e824"
+    },
+    {
+      "original": "EggIncubator_Egg_TR_12km.png",
+      "output": "items/eggincubator-egg-tr-12km.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 4503,
+      "webp_bytes": 3554,
+      "sha256_webp": "cc64f7108b85ba91416b5775526cacb96f21a89eca733093b99c9aece65261ef"
+    },
+    {
+      "original": "EggIncubator_TR.png",
+      "output": "items/eggincubator-tr.webp",
+      "width": 44,
+      "height": 53,
+      "png_bytes": 4638,
+      "webp_bytes": 3100,
+      "sha256_webp": "1b4cbc68d15fab574ceeb4a7a3770f1071cc7ddc4a1dc3a8620f8853dd628cfd"
+    },
+    {
+      "original": "EggIncubatorIAP_Activated.png",
+      "output": "items/eggincubatoriap-activated.webp",
+      "width": 180,
+      "height": 256,
+      "png_bytes": 51980,
+      "webp_bytes": 33002,
+      "sha256_webp": "9ae7255a0c8de50276c53d0cb4a2769e24a3efb1b41d96d98758faa4ec0729bc"
+    },
+    {
+      "original": "EggIncubatorIAP_Empty.png",
+      "output": "items/eggincubatoriap-empty.webp",
+      "width": 180,
+      "height": 256,
+      "png_bytes": 54174,
+      "webp_bytes": 32462,
+      "sha256_webp": "7b75f03fc3a363084ce2c4097a556061b43c28b92fa166d5539f68e4cfe615c1"
+    },
+    {
+      "original": "EggIncubatorSuper_Activated.png",
+      "output": "items/eggincubatorsuper-activated.webp",
+      "width": 132,
+      "height": 254,
+      "png_bytes": 47261,
+      "webp_bytes": 32450,
+      "sha256_webp": "47994205c688dd1567bf09ea77dad32ae7808039f3853311b4bd80752df615cd"
+    },
+    {
+      "original": "EggIncubatorSuper_Empty.png",
+      "output": "items/eggincubatorsuper-empty.webp",
+      "width": 132,
+      "height": 254,
+      "png_bytes": 43067,
+      "webp_bytes": 29188,
+      "sha256_webp": "1dc26267f573c77cbfafba8f9606ac3d8aaf29f92c7b8a4f9bf063b2c4518bad"
+    },
+    {
+      "original": "EggIncubatorTimed_Activated.png",
+      "output": "items/eggincubatortimed-activated.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 57945,
+      "webp_bytes": 41116,
+      "sha256_webp": "a893bb270ebd1fb285c9603ee0dcbb5a7b8c4c31e97b94ee939d1b18a94c16a1"
+    },
+    {
+      "original": "EggIncubatorTimed_Empty.png",
+      "output": "items/eggincubatortimed-empty.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 57421,
+      "webp_bytes": 40612,
+      "sha256_webp": "14a727c7c161328e24d86bd6b46204cdc8bc967dbddf956ae654e9b0e7b68a20"
+    },
+    {
+      "original": "EggIncubatorUnlimited_Activated.png",
+      "output": "items/eggincubatorunlimited-activated.webp",
+      "width": 164,
+      "height": 251,
+      "png_bytes": 48204,
+      "webp_bytes": 33494,
+      "sha256_webp": "3509cec8b6d9800dc9fb0eb0c26ff815e05328d77e65db2e484fffd522d94756"
+    },
+    {
+      "original": "EggIncubatorUnlimited_Empty.png",
+      "output": "items/eggincubatorunlimited-empty.webp",
+      "width": 164,
+      "height": 251,
+      "png_bytes": 51638,
+      "webp_bytes": 33310,
+      "sha256_webp": "5664dcbab4a79695446d38000e18a2406a3aa83f2a91b2eec3462cefb21231af"
+    },
+    {
+      "original": "GiftBox.png",
+      "output": "items/giftbox.webp",
+      "width": 205,
+      "height": 256,
+      "png_bytes": 56548,
+      "webp_bytes": 37150,
+      "sha256_webp": "89b74435430d8e6e9b63e9a5d0d5bd8fbd173e88875294c933fdfcf9ab1538dd"
+    },
+    {
+      "original": "giovanni_map_compass_base_fix.png",
+      "output": "items/giovanni-map-compass-base-fix.webp",
+      "width": 231,
+      "height": 191,
+      "png_bytes": 56807,
+      "webp_bytes": 37944,
+      "sha256_webp": "0ab8a2ec4f9fdb47e897025243ee2c51d6f1812e7009118a4099885d81ce48c2"
+    },
+    {
+      "original": "greatball_sprite.png",
+      "output": "items/greatball.webp",
+      "width": 186,
+      "height": 186,
+      "png_bytes": 37600,
+      "webp_bytes": 21914,
+      "sha256_webp": "0a29eade86aace3b8db2cbba9a6ca49290b8dab81a55f313d22891ac8e877fb7"
+    },
+    {
+      "original": "hideout_map_compass_base_fix.png",
+      "output": "items/hideout-map-compass-base-fix.webp",
+      "width": 231,
+      "height": 191,
+      "png_bytes": 54582,
+      "webp_bytes": 38156,
+      "sha256_webp": "dd321da9c337e5e7486d07b42a2204fd920bede5b09019458444245d283d593d"
+    },
+    {
+      "original": "Incense_0_Large_Bundle.png",
+      "output": "items/incense-0-large-bundle.webp",
+      "width": 256,
+      "height": 223,
+      "png_bytes": 59010,
+      "webp_bytes": 31396,
+      "sha256_webp": "9d7d48cbdc12ba34d274d2a8296558ec2f4dd38c8158137bb47eaabcdabd46d9"
+    },
+    {
+      "original": "Incense_0_Med_Bundle.png",
+      "output": "items/incense-0-med-bundle.webp",
+      "width": 243,
+      "height": 231,
+      "png_bytes": 45967,
+      "webp_bytes": 25544,
+      "sha256_webp": "4cffd530577b92811cd5b7968695f2e8eaa1a945dce8470293eaca7ecc8e0753"
+    },
+    {
+      "original": "Incense_0.png",
+      "output": "items/incense-0.webp",
+      "width": 234,
+      "height": 231,
+      "png_bytes": 48114,
+      "webp_bytes": 24328,
+      "sha256_webp": "62d9c1a1b96e1dc626888625f0f446a30fcb1c0c15f7896b5f9cd8241196b344"
+    },
+    {
+      "original": "Incense_1_Large_Bundle.png",
+      "output": "items/incense-1-large-bundle.webp",
+      "width": 246,
+      "height": 223,
+      "png_bytes": 57430,
+      "webp_bytes": 32386,
+      "sha256_webp": "305d0bd206ae47c873de77aa4851def8834f666f78e9e0e89306ab5dd76c95c7"
+    },
+    {
+      "original": "Incense_1_Med_Bundle.png",
+      "output": "items/incense-1-med-bundle.webp",
+      "width": 245,
+      "height": 209,
+      "png_bytes": 44143,
+      "webp_bytes": 24484,
+      "sha256_webp": "ecf98b7627a85da133627f1ca070b8e5299dc2069896ba7431a8a40f411a4fde"
+    },
+    {
+      "original": "Incense_1.png",
+      "output": "items/incense-1.webp",
+      "width": 235,
+      "height": 231,
+      "png_bytes": 48151,
+      "webp_bytes": 25058,
+      "sha256_webp": "b5b55fb7977872f46501cc80d6efc470dd66ef71e83bfe5ee7fc77c133dee210"
+    },
+    {
+      "original": "Item_0101.png",
+      "output": "items/item-0101.webp",
+      "width": 147,
+      "height": 227,
+      "png_bytes": 34828,
+      "webp_bytes": 22720,
+      "sha256_webp": "92cbfaafa43d5a665be3c4125374371abac276d9cdc17e72910beadad89d99ba"
+    },
+    {
+      "original": "Item_0102.png",
+      "output": "items/item-0102.webp",
+      "width": 147,
+      "height": 227,
+      "png_bytes": 31378,
+      "webp_bytes": 22994,
+      "sha256_webp": "6289b6af23504f1db4c1423de73788af3640975ab9e90659172569f9bc5d75ff"
+    },
+    {
+      "original": "Item_0103.png",
+      "output": "items/item-0103.webp",
+      "width": 147,
+      "height": 227,
+      "png_bytes": 32203,
+      "webp_bytes": 21136,
+      "sha256_webp": "437e72832cd76ac1fcec5fc1a4f5c4d2be1787d01e89ec8852c7496e95fabced"
+    },
+    {
+      "original": "Item_0104.png",
+      "output": "items/item-0104.webp",
+      "width": 194,
+      "height": 246,
+      "png_bytes": 51778,
+      "webp_bytes": 32778,
+      "sha256_webp": "c86b4dbcf0a59f8e902539ebf768336fde4b5244dba4ab2b54e691a1a4ef2e6f"
+    },
+    {
+      "original": "Item_0201.png",
+      "output": "items/item-0201.webp",
+      "width": 117,
+      "height": 165,
+      "png_bytes": 12173,
+      "webp_bytes": 8680,
+      "sha256_webp": "0e7bb9eda04182656137442c67e7aae09613123fdf9dfda0597562184ddad4eb"
+    },
+    {
+      "original": "Item_0202.png",
+      "output": "items/item-0202.webp",
+      "width": 177,
+      "height": 180,
+      "png_bytes": 23136,
+      "webp_bytes": 13466,
+      "sha256_webp": "191bea9632d8f1cad120fc5b79d667ef8aa79f8fc6ba18b77226051cf231d3b6"
+    },
+    {
+      "original": "Item_0401.png",
+      "output": "items/item-0401.webp",
+      "width": 255,
+      "height": 252,
+      "png_bytes": 69689,
+      "webp_bytes": 34140,
+      "sha256_webp": "e03b1f03615dd31ffbcc748955f493bc2428bd4383056079d78e2f07f1e9646c"
+    },
+    {
+      "original": "Item_0701.png",
+      "output": "items/item-0701.webp",
+      "width": 172,
+      "height": 196,
+      "png_bytes": 54614,
+      "webp_bytes": 24200,
+      "sha256_webp": "2ef5a9e275ca786e56faded9d7aeb0d397fa8dc09557cdce554ea46555b5ddc6"
+    },
+    {
+      "original": "Item_0702.png",
+      "output": "items/item-0702.webp",
+      "width": 177,
+      "height": 171,
+      "png_bytes": 40396,
+      "webp_bytes": 16974,
+      "sha256_webp": "f6252a1d79ee6dac2391b7324b0960e781f6365dea7755ce4067ea01511aad97"
+    },
+    {
+      "original": "Item_0703.png",
+      "output": "items/item-0703.webp",
+      "width": 204,
+      "height": 217,
+      "png_bytes": 42308,
+      "webp_bytes": 25760,
+      "sha256_webp": "9593538ad96f7d9aeea8ecc0c7a1d0d27479d7d6248fa09dc4be9fabef916917"
+    },
+    {
+      "original": "Item_0704.png",
+      "output": "items/item-0704.webp",
+      "width": 146,
+      "height": 182,
+      "png_bytes": 26043,
+      "webp_bytes": 15824,
+      "sha256_webp": "a9be746eadf06d206d5fb73f0a50c26b9493356a472b42df8212fabf93699798"
+    },
+    {
+      "original": "Item_0705.png",
+      "output": "items/item-0705.webp",
+      "width": 206,
+      "height": 241,
+      "png_bytes": 49222,
+      "webp_bytes": 27718,
+      "sha256_webp": "3c4f6a4e69c777e6aefb3624d7bf704236521bde6ed932fa78aefeec42a8e7be"
+    },
+    {
+      "original": "Item_0706.png",
+      "output": "items/item-0706.webp",
+      "width": 174,
+      "height": 192,
+      "png_bytes": 43710,
+      "webp_bytes": 22936,
+      "sha256_webp": "0eb6f6241dd2e5e726dd2520fc8aa031e2e98b9a3ccead3507eb756e88dae6fe"
+    },
+    {
+      "original": "Item_0707.png",
+      "output": "items/item-0707.webp",
+      "width": 216,
+      "height": 242,
+      "png_bytes": 51721,
+      "webp_bytes": 26508,
+      "sha256_webp": "be9f32071cd993d50851b20619fa1f57a67788769755bf09344d3e28def82949"
+    },
+    {
+      "original": "Item_1201.png",
+      "output": "items/item-1201.webp",
+      "width": 227,
+      "height": 118,
+      "png_bytes": 24021,
+      "webp_bytes": 13838,
+      "sha256_webp": "f68532d01537abb4deeacef126258920dae95cbb9cc71a49d05502284b79b898"
+    },
+    {
+      "original": "Item_1202.png",
+      "output": "items/item-1202.webp",
+      "width": 231,
+      "height": 121,
+      "png_bytes": 25882,
+      "webp_bytes": 15336,
+      "sha256_webp": "044ecaaad25517fda106790a34d556c5efc1ff047039256662174910b8633024"
+    },
+    {
+      "original": "Item_1203.png",
+      "output": "items/item-1203.webp",
+      "width": 256,
+      "height": 136,
+      "png_bytes": 37844,
+      "webp_bytes": 22176,
+      "sha256_webp": "7787b9298832bb99bc8397a0e4489f30378b1d241d6b2e95d5895bf31e8580b9"
+    },
+    {
+      "original": "Item_1204.png",
+      "output": "items/item-1204.webp",
+      "width": 256,
+      "height": 140,
+      "png_bytes": 37094,
+      "webp_bytes": 22756,
+      "sha256_webp": "3470da790869809fde3b39b8e41966334772e1ac375efebb5c0ee305ebb681cb"
+    },
+    {
+      "original": "Item_1301.png",
+      "output": "items/item-1301.webp",
+      "width": 153,
+      "height": 154,
+      "png_bytes": 32333,
+      "webp_bytes": 21636,
+      "sha256_webp": "07f2920fd3a431c362519bb545cca68d3b141b13b56fb3f5512295c846226fd1"
+    },
+    {
+      "original": "item_1350.png",
+      "output": "items/item-1350.webp",
+      "width": 240,
+      "height": 254,
+      "png_bytes": 57450,
+      "webp_bytes": 38262,
+      "sha256_webp": "1b41f432c5b55269b09f2e4edb3bade76f1956ad34a2713d90efcf1fc83ffbcb"
+    },
+    {
+      "original": "item_1351.png",
+      "output": "items/item-1351.webp",
+      "width": 235,
+      "height": 250,
+      "png_bytes": 59918,
+      "webp_bytes": 42020,
+      "sha256_webp": "d611537dd7236f7b4c54c95589b91bc974c4e83f7b2d249422c1302ab903dd8c"
+    },
+    {
+      "original": "Item_1401.png",
+      "output": "items/item-1401.webp",
+      "width": 238,
+      "height": 161,
+      "png_bytes": 33407,
+      "webp_bytes": 27046,
+      "sha256_webp": "6cbe4d7920b560d601f5796a86eafd31dedb9dab570af9dff98bf28aafa530e6"
+    },
+    {
+      "original": "Item_1402_3.png",
+      "output": "items/item-1402-3.webp",
+      "width": 237,
+      "height": 125,
+      "png_bytes": 31616,
+      "webp_bytes": 23608,
+      "sha256_webp": "f205ac2318137f4e0f716bf904a46b301ab0d3f310d79193089d4940e78e1ab7"
+    },
+    {
+      "original": "Item_1402_5.png",
+      "output": "items/item-1402-5.webp",
+      "width": 256,
+      "height": 177,
+      "png_bytes": 50342,
+      "webp_bytes": 34078,
+      "sha256_webp": "120418f4f23c2f1a1031e5c1ad66b3f227ecffd82f1f2d10513ac2aec55ea588"
+    },
+    {
+      "original": "Item_1402.png",
+      "output": "items/item-1402.webp",
+      "width": 238,
+      "height": 161,
+      "png_bytes": 34288,
+      "webp_bytes": 28098,
+      "sha256_webp": "e40de2b7a0011b0f3578e7795ba6bb09b21ac3ee38d498757c469abfb10d58af"
+    },
+    {
+      "original": "Item_1403.png",
+      "output": "items/item-1403.webp",
+      "width": 238,
+      "height": 161,
+      "png_bytes": 34417,
+      "webp_bytes": 25368,
+      "sha256_webp": "df7a8e0b3d950a3c91d1f77594ec197d65f6516527ae0d8f2c715af819984246"
+    },
+    {
+      "original": "Item_1404.png",
+      "output": "items/item-1404.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 54726,
+      "webp_bytes": 41386,
+      "sha256_webp": "9e4b45b654b687a90186505ba6d1ff1c0cf4e5da2669f6f2740387c6503741a8"
+    },
+    {
+      "original": "Item_1406.png",
+      "output": "items/item-1406.webp",
+      "width": 228,
+      "height": 230,
+      "png_bytes": 56541,
+      "webp_bytes": 33864,
+      "sha256_webp": "fec1b54246f6ae17fbd46d0c504c8586e88bbf20986f8460d3f07c05450a9d1d"
+    },
+    {
+      "original": "Item_1408_3.png",
+      "output": "items/item-1408-3.webp",
+      "width": 236,
+      "height": 124,
+      "png_bytes": 30021,
+      "webp_bytes": 23978,
+      "sha256_webp": "0459424ec6cd5803c922a125f3f117770ebb3bcdbc9115f6fd27c20778cc50e1"
+    },
+    {
+      "original": "Item_1408_5.png",
+      "output": "items/item-1408-5.webp",
+      "width": 251,
+      "height": 177,
+      "png_bytes": 43501,
+      "webp_bytes": 32940,
+      "sha256_webp": "9c6c0d222ca5777b8789c593e0241ca4e726ad8329a38d9a304d051e22169dec"
+    },
+    {
+      "original": "Item_1408.png",
+      "output": "items/item-1408.webp",
+      "width": 238,
+      "height": 162,
+      "png_bytes": 32542,
+      "webp_bytes": 26878,
+      "sha256_webp": "b576cf35113781794435d384e5546921b0a2d3b287a868f3a1c2479e86e8df1a"
+    },
+    {
+      "original": "item_1600.png",
+      "output": "items/item-1600.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 68379,
+      "webp_bytes": 45572,
+      "sha256_webp": "1281548b39a19bc43cb2ae8105860047601c7f5af0fa4a13d2d176b047c8abd1"
+    },
+    {
+      "original": "item_1601.png",
+      "output": "items/item-1601.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 56473,
+      "webp_bytes": 34196,
+      "sha256_webp": "cca2abcf967494a0b92d3efbdee6e6fbc634ff740db8c9c82c81e165325330b0"
+    },
+    {
+      "original": "item_1602.png",
+      "output": "items/item-1602.webp",
+      "width": 256,
+      "height": 192,
+      "png_bytes": 51118,
+      "webp_bytes": 31958,
+      "sha256_webp": "f5f645953c2f94add280fe09575bd6486cefc3c4dc733c4ea7c1a75ecff6507d"
+    },
+    {
+      "original": "item_1606.png",
+      "output": "items/item-1606.webp",
+      "width": 256,
+      "height": 192,
+      "png_bytes": 52309,
+      "webp_bytes": 36242,
+      "sha256_webp": "055c9f2e7ab07b8aa724b8582e192a7e134975279501a56a18f8c6433a545ccb"
+    },
+    {
+      "original": "item_1607.png",
+      "output": "items/item-1607.webp",
+      "width": 256,
+      "height": 192,
+      "png_bytes": 53126,
+      "webp_bytes": 36766,
+      "sha256_webp": "577da576c2448347163893c57576907feafe428ad6b8b2a12c2bde82651bea23"
+    },
+    {
+      "original": "Item_1609.png",
+      "output": "items/item-1609.webp",
+      "width": 203,
+      "height": 79,
+      "png_bytes": 5631,
+      "webp_bytes": 2698,
+      "sha256_webp": "cd26bec0d07fb8a3e90bee4fe051b4a748d3e4acdfaa2daff5e5d306a9280877"
+    },
+    {
+      "original": "Item_COIN_01.png",
+      "output": "items/item-coin-01.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 22463,
+      "webp_bytes": 15966,
+      "sha256_webp": "bcff38fb288a935ba72ac3d9d1f14fd441db25669c3778298492c4022b9b1207"
+    },
+    {
+      "original": "Item_COIN_BOX_01.png",
+      "output": "items/item-coin-box-01.webp",
+      "width": 249,
+      "height": 243,
+      "png_bytes": 70835,
+      "webp_bytes": 43984,
+      "sha256_webp": "6df50a45b8e3e75688e1a29f2c66d756d5a912a200bd0e4367c51fa0bd6d236b"
+    },
+    {
+      "original": "Item_COIN_BUCKET_01.png",
+      "output": "items/item-coin-bucket-01.webp",
+      "width": 224,
+      "height": 246,
+      "png_bytes": 56972,
+      "webp_bytes": 37178,
+      "sha256_webp": "cf41c9cf91347cf058ad018864fa44e9c804aa1fb39814aef00fb20725f50259"
+    },
+    {
+      "original": "Item_COIN_HANDFUL_01.png",
+      "output": "items/item-coin-handful-01.webp",
+      "width": 112,
+      "height": 97,
+      "png_bytes": 13682,
+      "webp_bytes": 9812,
+      "sha256_webp": "cc3b13f2294c144cebf9762bb5b5e5a53faae288f0e209ac97b131f5f4568112"
+    },
+    {
+      "original": "Item_COIN_HEAP_01.png",
+      "output": "items/item-coin-heap-01.webp",
+      "width": 248,
+      "height": 248,
+      "png_bytes": 72097,
+      "webp_bytes": 43020,
+      "sha256_webp": "25ceca7f9d078ba928809cca53338e778a0e766dd39d027d1bfce657ab8c75ed"
+    },
+    {
+      "original": "Item_COIN_POUCH_01.png",
+      "output": "items/item-coin-pouch-01.webp",
+      "width": 229,
+      "height": 242,
+      "png_bytes": 53360,
+      "webp_bytes": 30950,
+      "sha256_webp": "7d98b16f53fc3f2a27fc06cfd04ed0592e1d2c9d5082d6f1fcc427c3200b2e00"
+    },
+    {
+      "original": "Item_COIN_STACK_01.png",
+      "output": "items/item-coin-stack-01.webp",
+      "width": 214,
+      "height": 189,
+      "png_bytes": 37401,
+      "webp_bytes": 25330,
+      "sha256_webp": "cf10a6adc0fe00fc440df5c08f4c7bbdc94c56b411aad3632b2476f41b14ac17"
+    },
+    {
+      "original": "Item_Giovanni_MapCompass.png",
+      "output": "items/item-giovanni-mapcompass.webp",
+      "width": 232,
+      "height": 191,
+      "png_bytes": 55824,
+      "webp_bytes": 35132,
+      "sha256_webp": "dd1f9b1e1754eccb6d528ffa090bc19fd49d4ed58aa5cf2ef66ef86ec9f259b0"
+    },
+    {
+      "original": "item_kyuremBlackFusionResource.png",
+      "output": "items/item-kyuremblackfusionresource.webp",
+      "width": 246,
+      "height": 180,
+      "png_bytes": 36786,
+      "webp_bytes": 23814,
+      "sha256_webp": "0fb12ca8c5f44cba1c7bd709bc515394731a20e67c18425935ae57aab9f6f373"
+    },
+    {
+      "original": "item_kyuremWhiteFusionResource.png",
+      "output": "items/item-kyuremwhitefusionresource.webp",
+      "width": 222,
+      "height": 157,
+      "png_bytes": 38248,
+      "webp_bytes": 26846,
+      "sha256_webp": "ed9adb2242eb5b0efbc9425de64ebde9f461033b8c5eb5e8b7e319ad6809eff0"
+    },
+    {
+      "original": "Item_Leader_MapCompass.png",
+      "output": "items/item-leader-mapcompass.webp",
+      "width": 232,
+      "height": 192,
+      "png_bytes": 55048,
+      "webp_bytes": 36092,
+      "sha256_webp": "1a286654e2c5236c5cf2ba8b5882e4d126a884123ab392f7fa0b6e36bf81b664"
+    },
+    {
+      "original": "item_maple_a.png",
+      "output": "items/item-maple-a.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 47421,
+      "webp_bytes": 32172,
+      "sha256_webp": "69524330bffc4cb4774741fedf30bd1decb0242b68bd6eee85f355f79853e6d0"
+    },
+    {
+      "original": "item_maple_b.png",
+      "output": "items/item-maple-b.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 44988,
+      "webp_bytes": 30848,
+      "sha256_webp": "ddf03dde57ff94bd67169b52640da4eae19f1e402d57e79febfd9609783fc316"
+    },
+    {
+      "original": "item_maple_c.png",
+      "output": "items/item-maple-c.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 43905,
+      "webp_bytes": 29336,
+      "sha256_webp": "b14b6b5ad5058db20b0e65a11a235d5b3b4e0ef53943d539ac97bf5d8266c867"
+    },
+    {
+      "original": "Item_Meteorite.png",
+      "output": "items/item-meteorite.webp",
+      "width": 184,
+      "height": 200,
+      "png_bytes": 50480,
+      "webp_bytes": 34264,
+      "sha256_webp": "c5d2e396d4a4a6fe9bb2b93b55541e17955928d8f41e70fad346da5bdf8704b6"
+    },
+    {
+      "original": "item_pass_point_01.png",
+      "output": "items/item-pass-point-01.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 28854,
+      "webp_bytes": 18302,
+      "sha256_webp": "1857cd8fcac4bb673907cdfbb8a100c72c6b716ee1bfcbc18a6b2493b66afe66"
+    },
+    {
+      "original": "Item_postcardstorageupgrade.1.png",
+      "output": "items/item-postcardstorageupgrade-1.webp",
+      "width": 256,
+      "height": 173,
+      "png_bytes": 27162,
+      "webp_bytes": 19592,
+      "sha256_webp": "ef7fc0ae03be4d9844f15d7df2104ba69d0e1029e2e518d1e94cc7826c0fe4e5"
+    },
+    {
+      "original": "item_route_cell.png",
+      "output": "items/item-route-cell.webp",
+      "width": 202,
+      "height": 166,
+      "png_bytes": 27321,
+      "webp_bytes": 19374,
+      "sha256_webp": "9eb5dff6b99642841da8459c713ae41f5e4a9f775878eb2e36b1d6f2dc943ffa"
+    },
+    {
+      "original": "item_route_cube.png",
+      "output": "items/item-route-cube.webp",
+      "width": 207,
+      "height": 198,
+      "png_bytes": 46332,
+      "webp_bytes": 32634,
+      "sha256_webp": "4d6d0ba1413de9d3408a3b3cedb4d1cfac95bec058bafb6852b1c8d8ff9ffa60"
+    },
+    {
+      "original": "Item_ShadowFragment.png",
+      "output": "items/item-shadowfragment.webp",
+      "width": 156,
+      "height": 211,
+      "png_bytes": 35168,
+      "webp_bytes": 22694,
+      "sha256_webp": "3537632ae06dc106baa27e54e5b4005e2316d8e230860567fa8d8ab155a9851b"
+    },
+    {
+      "original": "Item_ShadowGem.png",
+      "output": "items/item-shadowgem.webp",
+      "width": 226,
+      "height": 231,
+      "png_bytes": 52643,
+      "webp_bytes": 35398,
+      "sha256_webp": "98d2e258becedb259b6f5e072b25d7892f75e0e89bb6917c392c6ffa338fbb04"
+    },
+    {
+      "original": "itemstorageupgrade.1.png",
+      "output": "items/itemstorageupgrade-1.webp",
+      "width": 191,
+      "height": 227,
+      "png_bytes": 41203,
+      "webp_bytes": 24058,
+      "sha256_webp": "491f68d22abaffbfb4f57bfcebc2c3941637a101257a2a5a162623858c662c02"
+    },
+    {
+      "original": "limited_incubatorx3.png",
+      "output": "items/limited-incubatorx3.webp",
+      "width": 195,
+      "height": 207,
+      "png_bytes": 49578,
+      "webp_bytes": 30802,
+      "sha256_webp": "772bbe337c26b12961e6a30889a711f6e840281a5c62ea1f96526501831ea67f"
+    },
+    {
+      "original": "limited_incubatorx5.png",
+      "output": "items/limited-incubatorx5.webp",
+      "width": 195,
+      "height": 233,
+      "png_bytes": 52073,
+      "webp_bytes": 30066,
+      "sha256_webp": "678cdfe47414ca1d7f192f7996b6f984e35149ff160b89d8998b1dde891e5971"
+    },
+    {
+      "original": "lucky_friend_applicator.png",
+      "output": "items/lucky-friend-applicator.webp",
+      "width": 226,
+      "height": 215,
+      "png_bytes": 61129,
+      "webp_bytes": 43110,
+      "sha256_webp": "25a6f6ec188c55890b778d3beb8922ba44992fad66967cd4531645d053718bc5"
+    },
+    {
+      "original": "luckyegg.20.png",
+      "output": "items/luckyegg-20.webp",
+      "width": 244,
+      "height": 229,
+      "png_bytes": 54866,
+      "webp_bytes": 30256,
+      "sha256_webp": "175ede9781d94069aea6dc1555fb96747416638fc0d6cc4862084b51781aa390"
+    },
+    {
+      "original": "luckyegg.5.png",
+      "output": "items/luckyegg-5.webp",
+      "width": 210,
+      "height": 206,
+      "png_bytes": 43020,
+      "webp_bytes": 23798,
+      "sha256_webp": "986b3fbd15e3233fef6ffe705bf4a45ec8ff007ae068964da14c82a004f94442"
+    },
+    {
+      "original": "luckyegg.png",
+      "output": "items/luckyegg.webp",
+      "width": 169,
+      "height": 195,
+      "png_bytes": 32680,
+      "webp_bytes": 20136,
+      "sha256_webp": "65823aba5f8a5e347f981b9f36e51f3734c89f66b28e038ee1cfdb82f30d49b2"
+    },
+    {
+      "original": "LV40_XLCandy_RGB_PSD.png",
+      "output": "items/lv40-xlcandy-rgb-psd.webp",
+      "width": 220,
+      "height": 232,
+      "png_bytes": 25870,
+      "webp_bytes": 16808,
+      "sha256_webp": "d533197e71350ba3b2a0500b93bd72ae5f3c16ada4cb07cabe24caf1745aefd6"
+    },
+    {
+      "original": "maple_tappable_icon.png",
+      "output": "items/maple-tappable-icon.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 68302,
+      "webp_bytes": 48074,
+      "sha256_webp": "e8aa5dd8c4d97d14363fb47f28a18c07520dd41ee39e314b7da0cfe9b123c9a6"
+    },
+    {
+      "original": "masterball_sprite.png",
+      "output": "items/masterball.webp",
+      "width": 186,
+      "height": 189,
+      "png_bytes": 40216,
+      "webp_bytes": 21762,
+      "sha256_webp": "20f0aade9874b6ccd9d96e69574070802936ff3e4c115f75ef6d04d9d7054139"
+    },
+    {
+      "original": "maxpotion_store.10.png",
+      "output": "items/maxpotion-store-10.webp",
+      "width": 220,
+      "height": 248,
+      "png_bytes": 52929,
+      "webp_bytes": 33298,
+      "sha256_webp": "58ebb71abc8df4a07a83dcde652ff5c7d7dfdbd9bab1653d3d19c89debad02d5"
+    },
+    {
+      "original": "maxrevive_store.6.png",
+      "output": "items/maxrevive-store-6.webp",
+      "width": 252,
+      "height": 192,
+      "png_bytes": 40062,
+      "webp_bytes": 23196,
+      "sha256_webp": "753a2c9c1b0c0d138e85dd311ad605092a6b196db899ec72dd8c60bd5e767cf2"
+    },
+    {
+      "original": "mp_pack_mulit.png",
+      "output": "items/mp-pack-mulit.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 33449,
+      "webp_bytes": 23668,
+      "sha256_webp": "ab3afb2a236aa15e3794b0867f5d4a1084af699698af93a23daa8aef2d3a14c7"
+    },
+    {
+      "original": "mp_pack.png",
+      "output": "items/mp-pack.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 17424,
+      "webp_bytes": 11806,
+      "sha256_webp": "eefaa9e6936e17d67e05f9266ed45c969658a71b5e49465673494c9b027f557e"
+    },
+    {
+      "original": "poffin.3.png",
+      "output": "items/poffin-3.webp",
+      "width": 177,
+      "height": 172,
+      "png_bytes": 34371,
+      "webp_bytes": 19200,
+      "sha256_webp": "928dea13935dc9940ff4a6e1a0126b26e7f05819610aefccdeb820ba5508c1d2"
+    },
+    {
+      "original": "poffin.5.png",
+      "output": "items/poffin-5.webp",
+      "width": 177,
+      "height": 190,
+      "png_bytes": 37876,
+      "webp_bytes": 20218,
+      "sha256_webp": "e67cf8a7196c18337d46843d1838d5fcc4565971d51414cb77d4133a2feac44a"
+    },
+    {
+      "original": "pokeball_store.100.png",
+      "output": "items/pokeball-store-100.webp",
+      "width": 222,
+      "height": 197,
+      "png_bytes": 58179,
+      "webp_bytes": 28188,
+      "sha256_webp": "289475a13cca2fb982e8c9d0699762a6851f2028c0459d47c053ada61f038f84"
+    },
+    {
+      "original": "pokeball_store.200.png",
+      "output": "items/pokeball-store-200.webp",
+      "width": 222,
+      "height": 221,
+      "png_bytes": 69803,
+      "webp_bytes": 33060,
+      "sha256_webp": "910222413c6594494c7d3b98276d54a9c3214b6ebe5293b180efaf853092645a"
+    },
+    {
+      "original": "pokeball_store.png",
+      "output": "items/pokeball-store.webp",
+      "width": 154,
+      "height": 154,
+      "png_bytes": 32334,
+      "webp_bytes": 16260,
+      "sha256_webp": "e6069ed24f9b72583e5a7aa255bf6f0febcb0d4537f7f7092e9d10c4b3ec105e"
+    },
+    {
+      "original": "pokeball_sprite.png",
+      "output": "items/pokeball.webp",
+      "width": 186,
+      "height": 186,
+      "png_bytes": 36395,
+      "webp_bytes": 18928,
+      "sha256_webp": "60cd3a8652a7c6683cfc05156fe156fc56fbaec46de32c8dc23c3d63ecc7e258"
+    },
+    {
+      "original": "Pokemon Center.png",
+      "output": "items/pokemon-center.webp",
+      "width": 95,
+      "height": 128,
+      "png_bytes": 18744,
+      "webp_bytes": 13538,
+      "sha256_webp": "85a20d4b1954c35ffd132760f1bf853f1aaf7647b072a20b6afcc1d88b37d450"
+    },
+    {
+      "original": "pokemon_details_candy.png",
+      "output": "items/pokemon-details-candy.webp",
+      "width": 117,
+      "height": 118,
+      "png_bytes": 20333,
+      "webp_bytes": 15064,
+      "sha256_webp": "91414af9a76faa5264759a2125f9f4cb521de3e75c87b4ad00eeda2962cf231c"
+    },
+    {
+      "original": "pokemon_details_mega_candy.png",
+      "output": "items/pokemon-details-mega-candy.webp",
+      "width": 128,
+      "height": 128,
+      "png_bytes": 18892,
+      "webp_bytes": 9422,
+      "sha256_webp": "a6e28d3afe0725e4388b08efd759f7c01402544d105847c07270d5c84d51b27d"
+    },
+    {
+      "original": "pokemonstorageupgrade.1.png",
+      "output": "items/pokemonstorageupgrade-1.webp",
+      "width": 256,
+      "height": 163,
+      "png_bytes": 61305,
+      "webp_bytes": 34974,
+      "sha256_webp": "362a837922f10f40902cb0c5c7b4523c32c58960ec4d4093667c8a034cf0e6a0"
+    },
+    {
+      "original": "premierball_sprite.png",
+      "output": "items/premierball.webp",
+      "width": 188,
+      "height": 188,
+      "png_bytes": 31604,
+      "webp_bytes": 18724,
+      "sha256_webp": "d64dc9613d9bbc69fec43c8af930935dafbecf2a6fa10075ac061f705dddddca"
+    },
+    {
+      "original": "RareXLCandy_PSD.png",
+      "output": "items/rarexlcandy-psd.webp",
+      "width": 159,
+      "height": 171,
+      "png_bytes": 44838,
+      "webp_bytes": 31692,
+      "sha256_webp": "6359ed5c6473336c069f4107ebe5322c77704622afc5cb1a4da111ce9be90285"
+    },
+    {
+      "original": "shield_fusionResource.png",
+      "output": "items/shield-fusionresource.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 51961,
+      "webp_bytes": 33336,
+      "sha256_webp": "0c8322dd90a5d7cf3b9ecd410ee7ad287c176c1a6b9de5018f288f64b5be1b01"
+    },
+    {
+      "original": "single_stat_increase.png",
+      "output": "items/single-stat-increase.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 50495,
+      "webp_bytes": 30820,
+      "sha256_webp": "97813277fd96af07ecb27428f3066e3ba3b1b629e7ed9c7d87e83d3e9138c643"
+    },
+    {
+      "original": "sparkly_incense.png",
+      "output": "items/sparkly-incense.webp",
+      "width": 512,
+      "height": 512,
+      "png_bytes": 204903,
+      "webp_bytes": 133862,
+      "sha256_webp": "8470ce26f1c3655eb7f63c21ce4326173618f7e2801be0c070bc6a42aa9546ed"
+    },
+    {
+      "original": "SponsoredGiftIcon.png",
+      "output": "items/sponsoredgifticon.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 66434,
+      "webp_bytes": 40066,
+      "sha256_webp": "63dd365f028847f74d58ea7f26bb644a446fc24b64f28b2f095ebb9d16296cbe"
+    },
+    {
+      "original": "stardust_painted.png",
+      "output": "items/stardust-painted.webp",
+      "width": 71,
+      "height": 243,
+      "png_bytes": 25635,
+      "webp_bytes": 18064,
+      "sha256_webp": "8153deb6f195cf20e159fd15c69b07be9a58ba886e417d67be6b20690199c31f"
+    },
+    {
+      "original": "stardust_vector.png",
+      "output": "items/stardust-vector.webp",
+      "width": 38,
+      "height": 116,
+      "png_bytes": 3745,
+      "webp_bytes": 2566,
+      "sha256_webp": "5852f292f7176b9954be647ad89d800eee321300835180e9f15f09c8ae001eca"
+    },
+    {
+      "original": "starpiece.25.png",
+      "output": "items/starpiece-25.webp",
+      "width": 212,
+      "height": 244,
+      "png_bytes": 34962,
+      "webp_bytes": 27916,
+      "sha256_webp": "1d63a19cb58deb005ccd4ef2a7abd740c9fd188c5bc0b2b55be067fbc0da8810"
+    },
+    {
+      "original": "starpiece.8.png",
+      "output": "items/starpiece-8.webp",
+      "width": 201,
+      "height": 213,
+      "png_bytes": 27475,
+      "webp_bytes": 21926,
+      "sha256_webp": "bac163513d126ffc031506bf5f79e39d6da4a0ad2670a42e119a635225b10768"
+    },
+    {
+      "original": "starpiece.png",
+      "output": "items/starpiece.webp",
+      "width": 200,
+      "height": 203,
+      "png_bytes": 22057,
+      "webp_bytes": 18760,
+      "sha256_webp": "6214e14f543735d1b39c38f2cf3bf7705db51de2c7ac4362d21a7a367ef4ced7"
+    },
+    {
+      "original": "super_incubatorx3.png",
+      "output": "items/super-incubatorx3.webp",
+      "width": 160,
+      "height": 231,
+      "png_bytes": 46460,
+      "webp_bytes": 28274,
+      "sha256_webp": "01622c3b38540a301c00a403b20bf05b897979e2f1f0f9a540056dabd55e98ab"
+    },
+    {
+      "original": "super_incubatorx5.png",
+      "output": "items/super-incubatorx5.webp",
+      "width": 160,
+      "height": 232,
+      "png_bytes": 52663,
+      "webp_bytes": 32366,
+      "sha256_webp": "ccb575ea3b3618681668b5e3465c0cc14b1179b3df0c072fe52fb23b9a425144"
+    },
+    {
+      "original": "sword_fusionResource.png",
+      "output": "items/sword-fusionresource.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 52033,
+      "webp_bytes": 32904,
+      "sha256_webp": "c5180861f594804c6aa01ff2655a97ec6183562d45d020e85010ff800ab82d5b"
+    },
+    {
+      "original": "TR_hideout_icon_giovanni.png",
+      "output": "items/tr-hideout-icon-giovanni.webp",
+      "width": 232,
+      "height": 191,
+      "png_bytes": 49964,
+      "webp_bytes": 27912,
+      "sha256_webp": "f9c6d17e1d78025378518f92054d53b40696ca9edd7f1ad1689a37844cdadbd3"
+    },
+    {
+      "original": "TR_hideout_icon_leader.png",
+      "output": "items/tr-hideout-icon-leader.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 58767,
+      "webp_bytes": 34644,
+      "sha256_webp": "cf06465dc6e04049026a08a4284b5e699d6a960064553736295d78b64bab6ae8"
+    },
+    {
+      "original": "triple_stat_increase.png",
+      "output": "items/triple-stat-increase.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 54034,
+      "webp_bytes": 35688,
+      "sha256_webp": "65bc957f22a81e203e75377dd8955b934473f17c3563c233522f4537245b5051"
+    },
+    {
+      "original": "TroyKey.15.png",
+      "output": "items/troykey-15.webp",
+      "width": 244,
+      "height": 237,
+      "png_bytes": 100712,
+      "webp_bytes": 58332,
+      "sha256_webp": "8f554fad1ddd12a80bfac5fc6d3fefb1dcf2b4e8b881a6a43603468c72a8bad4"
+    },
+    {
+      "original": "TroyKey_glacial.png",
+      "output": "items/troykey-glacial.webp",
+      "width": 247,
+      "height": 167,
+      "png_bytes": 40325,
+      "webp_bytes": 27966,
+      "sha256_webp": "4fd7baf57759dc04ce9ddefb04f0ce974d3e2ae666488707500c8ece95e697fd"
+    },
+    {
+      "original": "TroyKey_magnetic.png",
+      "output": "items/troykey-magnetic.webp",
+      "width": 247,
+      "height": 167,
+      "png_bytes": 38568,
+      "webp_bytes": 23358,
+      "sha256_webp": "ed2c3a448ac7b3cadd1ed254024cd7920e55a9c62388a6ff02f0d2ce30f330d8"
+    },
+    {
+      "original": "TroyKey_moss.png",
+      "output": "items/troykey-moss.webp",
+      "width": 247,
+      "height": 167,
+      "png_bytes": 39539,
+      "webp_bytes": 24726,
+      "sha256_webp": "290e4c16820ec032b2ccb62a4dc95b1ea108577931040b9cc4b82db7e65fc353"
+    },
+    {
+      "original": "TroyKey_rainy.png",
+      "output": "items/troykey-rainy.webp",
+      "width": 247,
+      "height": 168,
+      "png_bytes": 47500,
+      "webp_bytes": 29390,
+      "sha256_webp": "e8a0a938951347f00c17ec33aad9b983ab33b9cacfe867c34041cb0fe8030729"
+    },
+    {
+      "original": "TroyKey_sparkly.png",
+      "output": "items/troykey-sparkly.webp",
+      "width": 256,
+      "height": 256,
+      "png_bytes": 59161,
+      "webp_bytes": 44358,
+      "sha256_webp": "8ca4f909052f4c88079e28df91b2da761e43b74653a1282da0f6db2c6b632334"
+    },
+    {
+      "original": "TroyKey.png",
+      "output": "items/troykey.webp",
+      "width": 247,
+      "height": 167,
+      "png_bytes": 67659,
+      "webp_bytes": 40108,
+      "sha256_webp": "4c8da03bd86d867a8dafdbc95d57031a163775a737c017201938ea5e88fa3a60"
+    },
+    {
+      "original": "tx_ar_photo_camera.png",
+      "output": "items/tx-ar-photo-camera.webp",
+      "width": 222,
+      "height": 180,
+      "png_bytes": 39029,
+      "webp_bytes": 25640,
+      "sha256_webp": "9149e6aaba7b63cef9bdb6bffb4a09be5c8b54c9bf15875e4c5b9e5150956b32"
+    },
+    {
+      "original": "tx_converter.png",
+      "output": "items/tx-converter.webp",
+      "width": 512,
+      "height": 512,
+      "png_bytes": 232123,
+      "webp_bytes": 155222,
+      "sha256_webp": "b29d059018726c4ffd5a383afa3446a11c8c37fd9505d8a06c088e290b710c3a"
+    },
+    {
+      "original": "tx_FollowerItemFx.png",
+      "output": "items/tx-followeritemfx.webp",
+      "width": 64,
+      "height": 64,
+      "png_bytes": 8601,
+      "webp_bytes": 6548,
+      "sha256_webp": "3c05e3f4bb54876630479483af9f42ace0e24ee468a0b331c98946ec633e1364"
+    },
+    {
+      "original": "tx_shadow_crystal.png",
+      "output": "items/tx-shadow-crystal.webp",
+      "width": 512,
+      "height": 512,
+      "png_bytes": 192908,
+      "webp_bytes": 127872,
+      "sha256_webp": "d71ab78f9f3dde2d9a8ba1358beb9f1b766cd3e3a94cb6188ab8755d7c599339"
+    },
+    {
+      "original": "tx_shadow_shard.png",
+      "output": "items/tx-shadow-shard.webp",
+      "width": 512,
+      "height": 512,
+      "png_bytes": 131563,
+      "webp_bytes": 82838,
+      "sha256_webp": "3a1860ba39ed49b5ba5ce75183d462cb87012b4718ff3e5ba5a0dcf054f58295"
+    },
+    {
+      "original": "ultraball_sprite.png",
+      "output": "items/ultraball.webp",
+      "width": 186,
+      "height": 186,
+      "png_bytes": 36622,
+      "webp_bytes": 20504,
+      "sha256_webp": "5aa3788a068c08f2a8c5ff597f66798acad73d0e259f1ba9580b23a31a05d8f6"
+    },
+    {
+      "original": "wildball_sprite.png",
+      "output": "items/wildball.webp",
+      "width": 185,
+      "height": 193,
+      "png_bytes": 35641,
+      "webp_bytes": 24482,
+      "sha256_webp": "cbc68e7a001465dffc7c1fe58d02db8c492a5533bccb468cee58f03a0ac96dc5"
+    },
+    {
+      "original": "WonderBox_Buff.png",
+      "output": "items/wonderbox-buff.webp",
+      "width": 256,
+      "height": 233,
+      "png_bytes": 74539,
+      "webp_bytes": 45070,
+      "sha256_webp": "0127242ac36878db33534d792357fad2dfd38b5a5ff22952e115f23bf09b5b79"
+    },
+    {
+      "original": "WonderBox.png",
+      "output": "items/wonderbox.webp",
+      "width": 237,
+      "height": 242,
+      "png_bytes": 43170,
+      "webp_bytes": 21248,
+      "sha256_webp": "05837e9e57843984576b0178a9a8ce000bd63a46f09a2b6e472e4366d6c41938"
+    }
+  ]
+}
