@@ -1,0 +1,57 @@
+name: Testar sprites Pokemon GO em WebP sem perda
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Instalar encoder WebP e verificacao de pixels
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y webp imagemagick
+
+      - name: Baixar quatro sprites de exemplo da PokeMiners
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p png/normal png/shiny webp/normal webp/shiny
+          BASE="https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon"
+          curl --fail --location --silent --show-error --retry 3 "$BASE/pokemon_icon_001_00.png" -o png/normal/pokemon_icon_001_00.png
+          curl --fail --location --silent --show-error --retry 3 "$BASE/pokemon_icon_001_00_shiny.png" -o png/shiny/pokemon_icon_001_00_shiny.png
+          curl --fail --location --silent --show-error --retry 3 "$BASE/Addressable%20Assets/pm122.icon.png" -o png/normal/pm122.icon.png
+          curl --fail --location --silent --show-error --retry 3 "$BASE/Addressable%20Assets/pm122.s.icon.png" -o png/shiny/pm122.s.icon.png
+
+      - name: Converter e conferir pixels e transparencia
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "| Arquivo | PNG (KiB) | WebP (KiB) | Economia | Pixels diferentes |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---:|---:|---:|---:|" >> "$GITHUB_STEP_SUMMARY"
+          while IFS= read -r -d '' src; do
+            dest="webp/${src#png/}"
+            dest="${dest%.png}.webp"
+            cwebp -quiet -lossless -exact -m 6 "$src" -o "$dest"
+            diff_pixels=$(compare -metric AE "$src" "$dest" null: 2>&1) || result=$?
+            if [ "${result:-0}" -gt 1 ] || [ "$diff_pixels" != "0" ]; then
+              echo "ERRO: pixels diferentes ou falha ao comparar $src: $diff_pixels"
+              exit 1
+            fi
+            unset result
+            a=$(stat -c %s "$src")
+            b=$(stat -c %s "$dest")
+            percent=$(awk -v a="$a" -v b="$b" 'BEGIN { printf "%.1f", 100*(1-b/a) }')
+            printf '| %s | %.1f | %.1f | %s%% | 0 |\n' "${src#png/}" "$(awk -v x="$a" 'BEGIN{print x/1024}')" "$(awk -v x="$b" 'BEGIN{print x/1024}')" "$percent" >> "$GITHUB_STEP_SUMMARY"
+          done < <(find png -type f -name '*.png' -print0)
+
+      - name: Disponibilizar sprites de teste
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokemon-go-webp-lossless-teste
+          path: webp/
+          retention-days: 7
