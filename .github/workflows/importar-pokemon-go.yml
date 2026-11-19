@@ -38,12 +38,16 @@ jobs:
           python -m pip install --disable-pip-version-check pillow
       - name: Converter e validar os sprites
         run: python scripts/importar_pokemongo.py --source upstream
+      - name: Gerar índice de variantes para a H!P DEX
+        run: python scripts/gerar_indice_variantes.py
       - name: Disponibilizar manifesto da importação
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: manifest-pokemon-go
-          path: manifest.json
+          path: |
+            manifest.json
+            indice-variantes.json
           if-no-files-found: ignore
           retention-days: 14
       - name: Publicar somente quando solicitado
@@ -52,7 +56,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- '*.webp' manifest.json
+          git add -A -- '*.webp' manifest.json indice-variantes.json
           if git diff --cached --quiet; then
             echo "Nenhuma alteração"
             exit 0
