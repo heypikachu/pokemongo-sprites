@@ -62,4 +62,16 @@ jobs:
             exit 0
           fi
           git commit -m "Importar sprites Pokemon GO em WebP lossless"
-          git push
+          # Another workflow/PR may have updated main during conversion.
+          # Integrate upstream changes without overwriting them or force-pushing.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "Publicacao concluida com main sincronizada."
+              exit 0
+            fi
+            echo "main mudou durante a publicacao; repetindo sincronizacao ($attempt/3)."
+          done
+          echo "Nao foi possivel publicar apos tres tentativas seguras."
+          exit 1
