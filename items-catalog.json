@@ -1,0 +1,1164 @@
+{
+  "schema_version": 1,
+  "notes": "All 164 images are listed. Only verified item IDs are searchable by semantic slug. Unreviewed technical IDs are deliberately not guessed. Image URLs remain unchanged.",
+  "item_count": 164,
+  "verified_count": 6,
+  "by_slug": {
+    "potion": "items/item-0101.webp",
+    "super-potion": "items/item-0102.webp",
+    "hyper-potion": "items/item-0103.webp",
+    "max-potion": "items/item-0104.webp",
+    "revive": "items/item-0201.webp",
+    "max-revive": "items/item-0202.webp"
+  },
+  "items": [
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Dragon_Scale_Sprite.png",
+      "webp": "items/bag-dragon-scale.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_King's_Rock_Sprite.png",
+      "webp": "items/bag-king-s-rock.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Metal_Coat_Sprite.png",
+      "webp": "items/bag-metal-coat.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Other_Stone_A_Sprite.png",
+      "webp": "items/bag-other-stone-a.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Sinnoh_Stone_Sprite.png",
+      "webp": "items/bag-sinnoh-stone.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Sun_Stone_Sprite.png",
+      "webp": "items/bag-sun-stone.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Unova_Stone_Sprite.png",
+      "webp": "items/bag-unova-stone.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Bag_Up-Grade_Sprite.png",
+      "webp": "items/bag-up-grade.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "beastball_sprite.png",
+      "webp": "items/beastball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "candy_rgb.png",
+      "webp": "items/candy-rgb.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "dailyWalking_incense.png",
+      "webp": "items/dailywalking-incense.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_10km.png",
+      "webp": "items/egg-10km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_12km_TR.png",
+      "webp": "items/egg-12km-tr.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_2km.png",
+      "webp": "items/egg-2km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_5km.png",
+      "webp": "items/egg-5km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_7km.png",
+      "webp": "items/egg-7km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_A.png",
+      "webp": "items/egg-a.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_B.png",
+      "webp": "items/egg-b.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_C.png",
+      "webp": "items/egg-c.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_D.png",
+      "webp": "items/egg-d.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Egg_TR.png",
+      "webp": "items/egg-tr.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_10km.png",
+      "webp": "items/eggincubator-egg-10km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_2km.png",
+      "webp": "items/eggincubator-egg-2km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_5km.png",
+      "webp": "items/eggincubator-egg-5km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_7km.png",
+      "webp": "items/eggincubator-egg-7km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_A.png",
+      "webp": "items/eggincubator-egg-a.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_B.png",
+      "webp": "items/eggincubator-egg-b.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_C.png",
+      "webp": "items/eggincubator-egg-c.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_D.png",
+      "webp": "items/eggincubator-egg-d.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_Egg_TR_12km.png",
+      "webp": "items/eggincubator-egg-tr-12km.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubator_TR.png",
+      "webp": "items/eggincubator-tr.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorIAP_Activated.png",
+      "webp": "items/eggincubatoriap-activated.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorIAP_Empty.png",
+      "webp": "items/eggincubatoriap-empty.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorSuper_Activated.png",
+      "webp": "items/eggincubatorsuper-activated.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorSuper_Empty.png",
+      "webp": "items/eggincubatorsuper-empty.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorTimed_Activated.png",
+      "webp": "items/eggincubatortimed-activated.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorTimed_Empty.png",
+      "webp": "items/eggincubatortimed-empty.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorUnlimited_Activated.png",
+      "webp": "items/eggincubatorunlimited-activated.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "EggIncubatorUnlimited_Empty.png",
+      "webp": "items/eggincubatorunlimited-empty.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "GiftBox.png",
+      "webp": "items/giftbox.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "giovanni_map_compass_base_fix.png",
+      "webp": "items/giovanni-map-compass-base-fix.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "greatball_sprite.png",
+      "webp": "items/greatball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "hideout_map_compass_base_fix.png",
+      "webp": "items/hideout-map-compass-base-fix.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Incense_0_Large_Bundle.png",
+      "webp": "items/incense-0-large-bundle.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Incense_0_Med_Bundle.png",
+      "webp": "items/incense-0-med-bundle.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Incense_0.png",
+      "webp": "items/incense-0.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Incense_1_Large_Bundle.png",
+      "webp": "items/incense-1-large-bundle.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Incense_1_Med_Bundle.png",
+      "webp": "items/incense-1-med-bundle.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Incense_1.png",
+      "webp": "items/incense-1.webp"
+    },
+    {
+      "slug": "potion",
+      "name_en": "Potion",
+      "status": "verified",
+      "original": "Item_0101.png",
+      "webp": "items/item-0101.webp"
+    },
+    {
+      "slug": "super-potion",
+      "name_en": "Super Potion",
+      "status": "verified",
+      "original": "Item_0102.png",
+      "webp": "items/item-0102.webp"
+    },
+    {
+      "slug": "hyper-potion",
+      "name_en": "Hyper Potion",
+      "status": "verified",
+      "original": "Item_0103.png",
+      "webp": "items/item-0103.webp"
+    },
+    {
+      "slug": "max-potion",
+      "name_en": "Max Potion",
+      "status": "verified",
+      "original": "Item_0104.png",
+      "webp": "items/item-0104.webp"
+    },
+    {
+      "slug": "revive",
+      "name_en": "Revive",
+      "status": "verified",
+      "original": "Item_0201.png",
+      "webp": "items/item-0201.webp"
+    },
+    {
+      "slug": "max-revive",
+      "name_en": "Max Revive",
+      "status": "verified",
+      "original": "Item_0202.png",
+      "webp": "items/item-0202.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0401.png",
+      "webp": "items/item-0401.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0701.png",
+      "webp": "items/item-0701.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0702.png",
+      "webp": "items/item-0702.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0703.png",
+      "webp": "items/item-0703.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0704.png",
+      "webp": "items/item-0704.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0705.png",
+      "webp": "items/item-0705.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0706.png",
+      "webp": "items/item-0706.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_0707.png",
+      "webp": "items/item-0707.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1201.png",
+      "webp": "items/item-1201.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1202.png",
+      "webp": "items/item-1202.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1203.png",
+      "webp": "items/item-1203.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1204.png",
+      "webp": "items/item-1204.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1301.png",
+      "webp": "items/item-1301.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1350.png",
+      "webp": "items/item-1350.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1351.png",
+      "webp": "items/item-1351.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1401.png",
+      "webp": "items/item-1401.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1402_3.png",
+      "webp": "items/item-1402-3.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1402_5.png",
+      "webp": "items/item-1402-5.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1402.png",
+      "webp": "items/item-1402.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1403.png",
+      "webp": "items/item-1403.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1404.png",
+      "webp": "items/item-1404.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1406.png",
+      "webp": "items/item-1406.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1408_3.png",
+      "webp": "items/item-1408-3.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1408_5.png",
+      "webp": "items/item-1408-5.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1408.png",
+      "webp": "items/item-1408.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1600.png",
+      "webp": "items/item-1600.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1601.png",
+      "webp": "items/item-1601.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1602.png",
+      "webp": "items/item-1602.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1606.png",
+      "webp": "items/item-1606.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_1607.png",
+      "webp": "items/item-1607.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_1609.png",
+      "webp": "items/item-1609.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_01.png",
+      "webp": "items/item-coin-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_BOX_01.png",
+      "webp": "items/item-coin-box-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_BUCKET_01.png",
+      "webp": "items/item-coin-bucket-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_HANDFUL_01.png",
+      "webp": "items/item-coin-handful-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_HEAP_01.png",
+      "webp": "items/item-coin-heap-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_POUCH_01.png",
+      "webp": "items/item-coin-pouch-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_COIN_STACK_01.png",
+      "webp": "items/item-coin-stack-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_Giovanni_MapCompass.png",
+      "webp": "items/item-giovanni-mapcompass.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_kyuremBlackFusionResource.png",
+      "webp": "items/item-kyuremblackfusionresource.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_kyuremWhiteFusionResource.png",
+      "webp": "items/item-kyuremwhitefusionresource.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_Leader_MapCompass.png",
+      "webp": "items/item-leader-mapcompass.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_maple_a.png",
+      "webp": "items/item-maple-a.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_maple_b.png",
+      "webp": "items/item-maple-b.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_maple_c.png",
+      "webp": "items/item-maple-c.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_Meteorite.png",
+      "webp": "items/item-meteorite.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_pass_point_01.png",
+      "webp": "items/item-pass-point-01.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_postcardstorageupgrade.1.png",
+      "webp": "items/item-postcardstorageupgrade-1.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_route_cell.png",
+      "webp": "items/item-route-cell.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "item_route_cube.png",
+      "webp": "items/item-route-cube.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_ShadowFragment.png",
+      "webp": "items/item-shadowfragment.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Item_ShadowGem.png",
+      "webp": "items/item-shadowgem.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "itemstorageupgrade.1.png",
+      "webp": "items/itemstorageupgrade-1.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "limited_incubatorx3.png",
+      "webp": "items/limited-incubatorx3.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "limited_incubatorx5.png",
+      "webp": "items/limited-incubatorx5.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "lucky_friend_applicator.png",
+      "webp": "items/lucky-friend-applicator.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "luckyegg.20.png",
+      "webp": "items/luckyegg-20.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "luckyegg.5.png",
+      "webp": "items/luckyegg-5.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "luckyegg.png",
+      "webp": "items/luckyegg.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "LV40_XLCandy_RGB_PSD.png",
+      "webp": "items/lv40-xlcandy-rgb-psd.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "maple_tappable_icon.png",
+      "webp": "items/maple-tappable-icon.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "masterball_sprite.png",
+      "webp": "items/masterball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "maxpotion_store.10.png",
+      "webp": "items/maxpotion-store-10.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "maxrevive_store.6.png",
+      "webp": "items/maxrevive-store-6.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "mp_pack_mulit.png",
+      "webp": "items/mp-pack-mulit.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "mp_pack.png",
+      "webp": "items/mp-pack.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "poffin.3.png",
+      "webp": "items/poffin-3.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "poffin.5.png",
+      "webp": "items/poffin-5.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokeball_store.100.png",
+      "webp": "items/pokeball-store-100.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokeball_store.200.png",
+      "webp": "items/pokeball-store-200.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokeball_store.png",
+      "webp": "items/pokeball-store.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokeball_sprite.png",
+      "webp": "items/pokeball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "Pokemon Center.png",
+      "webp": "items/pokemon-center.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokemon_details_candy.png",
+      "webp": "items/pokemon-details-candy.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokemon_details_mega_candy.png",
+      "webp": "items/pokemon-details-mega-candy.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "pokemonstorageupgrade.1.png",
+      "webp": "items/pokemonstorageupgrade-1.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "premierball_sprite.png",
+      "webp": "items/premierball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "RareXLCandy_PSD.png",
+      "webp": "items/rarexlcandy-psd.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "shield_fusionResource.png",
+      "webp": "items/shield-fusionresource.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "single_stat_increase.png",
+      "webp": "items/single-stat-increase.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "sparkly_incense.png",
+      "webp": "items/sparkly-incense.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "SponsoredGiftIcon.png",
+      "webp": "items/sponsoredgifticon.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "stardust_painted.png",
+      "webp": "items/stardust-painted.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "stardust_vector.png",
+      "webp": "items/stardust-vector.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "starpiece.25.png",
+      "webp": "items/starpiece-25.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "starpiece.8.png",
+      "webp": "items/starpiece-8.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "starpiece.png",
+      "webp": "items/starpiece.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "super_incubatorx3.png",
+      "webp": "items/super-incubatorx3.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "super_incubatorx5.png",
+      "webp": "items/super-incubatorx5.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "sword_fusionResource.png",
+      "webp": "items/sword-fusionresource.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TR_hideout_icon_giovanni.png",
+      "webp": "items/tr-hideout-icon-giovanni.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TR_hideout_icon_leader.png",
+      "webp": "items/tr-hideout-icon-leader.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "triple_stat_increase.png",
+      "webp": "items/triple-stat-increase.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey.15.png",
+      "webp": "items/troykey-15.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey_glacial.png",
+      "webp": "items/troykey-glacial.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey_magnetic.png",
+      "webp": "items/troykey-magnetic.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey_moss.png",
+      "webp": "items/troykey-moss.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey_rainy.png",
+      "webp": "items/troykey-rainy.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey_sparkly.png",
+      "webp": "items/troykey-sparkly.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "TroyKey.png",
+      "webp": "items/troykey.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "tx_ar_photo_camera.png",
+      "webp": "items/tx-ar-photo-camera.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "tx_converter.png",
+      "webp": "items/tx-converter.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "tx_FollowerItemFx.png",
+      "webp": "items/tx-followeritemfx.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "tx_shadow_crystal.png",
+      "webp": "items/tx-shadow-crystal.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "tx_shadow_shard.png",
+      "webp": "items/tx-shadow-shard.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "ultraball_sprite.png",
+      "webp": "items/ultraball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "wildball_sprite.png",
+      "webp": "items/wildball.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "WonderBox_Buff.png",
+      "webp": "items/wonderbox-buff.webp"
+    },
+    {
+      "slug": null,
+      "name_en": null,
+      "status": "needs_review",
+      "original": "WonderBox.png",
+      "webp": "items/wonderbox.webp"
+    }
+  ]
+}
