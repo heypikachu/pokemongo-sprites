@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "notes": "All 164 images listed. Status verified = cross-checked numeric ID; source_named = semantic label directly supported by descriptive source filename (including distinct pack/alternate images); needs_review = do not guess. Existing WebP paths unchanged.",
+  "notes": "All 164 sprite paths preserved. verified=ID mapping corroborated by item-ID reference, source_named=descriptive source filename only, needs_review=do not infer. Names ending -image, -icon and -asset can be UI assets or store bundles, not individual reward items; do not use automatically as reward icons.",
   "item_count": 164,
-  "verified_count": 51,
+  "verified_count": 119,
   "by_slug": {
     "potion": "items/item-0101.webp",
     "super-potion": "items/item-0102.webp",
@@ -54,7 +54,75 @@
     "star-piece": "items/starpiece.webp",
     "purified-gem-alt": "items/tx-shadow-crystal.webp",
     "shadow-shard-alt": "items/tx-shadow-shard.webp",
-    "ultra-ball": "items/ultraball.webp"
+    "ultra-ball": "items/ultraball.webp",
+    "egg-team-rocket": "items/egg-tr.webp",
+    "incubator-with-10km-egg": "items/eggincubator-egg-10km.webp",
+    "incubator-with-2km-egg": "items/eggincubator-egg-2km.webp",
+    "incubator-with-5km-egg": "items/eggincubator-egg-5km.webp",
+    "incubator-with-7km-egg": "items/eggincubator-egg-7km.webp",
+    "incubator-with-12km-egg": "items/eggincubator-egg-tr-12km.webp",
+    "team-rocket-egg-incubator-icon": "items/eggincubator-tr.webp",
+    "incubator-iap-active": "items/eggincubatoriap-activated.webp",
+    "incubator-iap-empty": "items/eggincubatoriap-empty.webp",
+    "super-incubator-active": "items/eggincubatorsuper-activated.webp",
+    "super-incubator-empty": "items/eggincubatorsuper-empty.webp",
+    "timed-incubator-active": "items/eggincubatortimed-activated.webp",
+    "timed-incubator-empty": "items/eggincubatortimed-empty.webp",
+    "unlimited-incubator-active": "items/eggincubatorunlimited-activated.webp",
+    "unlimited-incubator-empty": "items/eggincubatorunlimited-empty.webp",
+    "gift-box-icon": "items/giftbox.webp",
+    "giovanni-radar-base-image": "items/giovanni-map-compass-base-fix.webp",
+    "rocket-radar-base-image": "items/hideout-map-compass-base-fix.webp",
+    "incense-0-large-bundle-image": "items/incense-0-large-bundle.webp",
+    "incense-0-medium-bundle-image": "items/incense-0-med-bundle.webp",
+    "incense-image-0": "items/incense-0.webp",
+    "incense-1-large-bundle-image": "items/incense-1-large-bundle.webp",
+    "incense-1-medium-bundle-image": "items/incense-1-med-bundle.webp",
+    "incense-image-1": "items/incense-1.webp",
+    "incense": "items/item-0401.webp",
+    "razz-berry": "items/item-0701.webp",
+    "bluk-berry": "items/item-0702.webp",
+    "nanab-berry": "items/item-0703.webp",
+    "wepar-berry": "items/item-0704.webp",
+    "pinap-berry": "items/item-0705.webp",
+    "golden-razz-berry": "items/item-0706.webp",
+    "coin-icon": "items/item-coin-01.webp",
+    "coin-box-image": "items/item-coin-box-01.webp",
+    "coin-bucket-image": "items/item-coin-bucket-01.webp",
+    "coin-handful-image": "items/item-coin-handful-01.webp",
+    "coin-heap-image": "items/item-coin-heap-01.webp",
+    "coin-pouch-image": "items/item-coin-pouch-01.webp",
+    "coin-stack-image": "items/item-coin-stack-01.webp",
+    "pass-point-icon": "items/item-pass-point-01.webp",
+    "postcard-storage-upgrade": "items/item-postcardstorageupgrade-1.webp",
+    "limited-incubator-3-pack-image": "items/limited-incubatorx3.webp",
+    "limited-incubator-5-pack-image": "items/limited-incubatorx5.webp",
+    "max-potion-10-pack-image": "items/maxpotion-store-10.webp",
+    "max-revive-6-pack-image": "items/maxrevive-store-6.webp",
+    "poke-ball-100-pack-image": "items/pokeball-store-100.webp",
+    "poke-ball-200-pack-image": "items/pokeball-store-200.webp",
+    "poke-ball-store-image": "items/pokeball-store.webp",
+    "pokemon-center-image": "items/pokemon-center.webp",
+    "sponsored-gift-icon": "items/sponsoredgifticon.webp",
+    "stardust-painted-icon": "items/stardust-painted.webp",
+    "stardust-vector-icon": "items/stardust-vector.webp",
+    "super-incubator-3-pack-image": "items/super-incubatorx3.webp",
+    "super-incubator-5-pack-image": "items/super-incubatorx5.webp",
+    "giovanni-hideout-icon": "items/tr-hideout-icon-giovanni.webp",
+    "rocket-leader-hideout-icon": "items/tr-hideout-icon-leader.webp",
+    "lure-module-15-bundle-image": "items/troykey-15.webp",
+    "glacial-lure-module": "items/troykey-glacial.webp",
+    "magnetic-lure-module": "items/troykey-magnetic.webp",
+    "mossy-lure-module": "items/troykey-moss.webp",
+    "rainy-lure-module": "items/troykey-rainy.webp",
+    "sparkly-lure-icon": "items/troykey-sparkly.webp",
+    "lure-module-icon": "items/troykey.webp",
+    "ar-camera-ui-icon": "items/tx-ar-photo-camera.webp",
+    "converter-icon-asset": "items/tx-converter.webp",
+    "follower-item-effect-asset": "items/tx-followeritemfx.webp",
+    "wild-ball-icon": "items/wildball.webp",
+    "wonder-box-buff-image": "items/wonderbox-buff.webp",
+    "wonder-box-image": "items/wonderbox.webp"
   },
   "items": [
     {
@@ -198,37 +266,37 @@
       "webp": "items/egg-d.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-team-rocket",
+      "name_en": "Team GO Rocket Egg (icon)",
+      "status": "source_named",
       "original": "Egg_TR.png",
       "webp": "items/egg-tr.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-with-10km-egg",
+      "name_en": "Incubator containing a 10 km Egg",
+      "status": "source_named",
       "original": "EggIncubator_Egg_10km.png",
       "webp": "items/eggincubator-egg-10km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-with-2km-egg",
+      "name_en": "Incubator containing a 2 km Egg",
+      "status": "source_named",
       "original": "EggIncubator_Egg_2km.png",
       "webp": "items/eggincubator-egg-2km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-with-5km-egg",
+      "name_en": "Incubator containing a 5 km Egg",
+      "status": "source_named",
       "original": "EggIncubator_Egg_5km.png",
       "webp": "items/eggincubator-egg-5km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-with-7km-egg",
+      "name_en": "Incubator containing a 7 km Egg",
+      "status": "source_named",
       "original": "EggIncubator_Egg_7km.png",
       "webp": "items/eggincubator-egg-7km.webp"
     },
@@ -261,86 +329,86 @@
       "webp": "items/eggincubator-egg-d.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-with-12km-egg",
+      "name_en": "Incubator containing a 12 km Egg",
+      "status": "source_named",
       "original": "EggIncubator_Egg_TR_12km.png",
       "webp": "items/eggincubator-egg-tr-12km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "team-rocket-egg-incubator-icon",
+      "name_en": "Team GO Rocket Egg incubator (icon)",
+      "status": "source_named",
       "original": "EggIncubator_TR.png",
       "webp": "items/eggincubator-tr.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-iap-active",
+      "name_en": "Incubator IAP active (icon)",
+      "status": "source_named",
       "original": "EggIncubatorIAP_Activated.png",
       "webp": "items/eggincubatoriap-activated.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-iap-empty",
+      "name_en": "Incubator IAP empty (icon)",
+      "status": "source_named",
       "original": "EggIncubatorIAP_Empty.png",
       "webp": "items/eggincubatoriap-empty.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "super-incubator-active",
+      "name_en": "Super Incubator active (icon)",
+      "status": "source_named",
       "original": "EggIncubatorSuper_Activated.png",
       "webp": "items/eggincubatorsuper-activated.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "super-incubator-empty",
+      "name_en": "Super Incubator empty (icon)",
+      "status": "source_named",
       "original": "EggIncubatorSuper_Empty.png",
       "webp": "items/eggincubatorsuper-empty.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "timed-incubator-active",
+      "name_en": "Timed Incubator active (icon)",
+      "status": "source_named",
       "original": "EggIncubatorTimed_Activated.png",
       "webp": "items/eggincubatortimed-activated.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "timed-incubator-empty",
+      "name_en": "Timed Incubator empty (icon)",
+      "status": "source_named",
       "original": "EggIncubatorTimed_Empty.png",
       "webp": "items/eggincubatortimed-empty.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "unlimited-incubator-active",
+      "name_en": "Unlimited Incubator active (icon)",
+      "status": "source_named",
       "original": "EggIncubatorUnlimited_Activated.png",
       "webp": "items/eggincubatorunlimited-activated.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "unlimited-incubator-empty",
+      "name_en": "Unlimited Incubator empty (icon)",
+      "status": "source_named",
       "original": "EggIncubatorUnlimited_Empty.png",
       "webp": "items/eggincubatorunlimited-empty.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "gift-box-icon",
+      "name_en": "Gift Box (icon)",
+      "status": "source_named",
       "original": "GiftBox.png",
       "webp": "items/giftbox.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "giovanni-radar-base-image",
+      "name_en": "Giovanni radar base image",
+      "status": "source_named",
       "original": "giovanni_map_compass_base_fix.png",
       "webp": "items/giovanni-map-compass-base-fix.webp"
     },
@@ -352,51 +420,51 @@
       "webp": "items/greatball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "rocket-radar-base-image",
+      "name_en": "Rocket radar base image",
+      "status": "source_named",
       "original": "hideout_map_compass_base_fix.png",
       "webp": "items/hideout-map-compass-base-fix.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense-0-large-bundle-image",
+      "name_en": "Incense 0 large bundle image",
+      "status": "source_named",
       "original": "Incense_0_Large_Bundle.png",
       "webp": "items/incense-0-large-bundle.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense-0-medium-bundle-image",
+      "name_en": "Incense 0 medium bundle image",
+      "status": "source_named",
       "original": "Incense_0_Med_Bundle.png",
       "webp": "items/incense-0-med-bundle.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense-image-0",
+      "name_en": "Incense visual variant 0",
+      "status": "source_named",
       "original": "Incense_0.png",
       "webp": "items/incense-0.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense-1-large-bundle-image",
+      "name_en": "Incense 1 large bundle image",
+      "status": "source_named",
       "original": "Incense_1_Large_Bundle.png",
       "webp": "items/incense-1-large-bundle.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense-1-medium-bundle-image",
+      "name_en": "Incense 1 medium bundle image",
+      "status": "source_named",
       "original": "Incense_1_Med_Bundle.png",
       "webp": "items/incense-1-med-bundle.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense-image-1",
+      "name_en": "Incense visual variant 1",
+      "status": "source_named",
       "original": "Incense_1.png",
       "webp": "items/incense-1.webp"
     },
@@ -443,53 +511,60 @@
       "webp": "items/item-0202.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incense",
+      "name_en": "Incense",
+      "status": "verified",
       "original": "Item_0401.png",
-      "webp": "items/item-0401.webp"
+      "webp": "items/item-0401.webp",
+      "item_id": 401
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "razz-berry",
+      "name_en": "Razz Berry",
+      "status": "verified",
       "original": "Item_0701.png",
-      "webp": "items/item-0701.webp"
+      "webp": "items/item-0701.webp",
+      "item_id": 701
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "bluk-berry",
+      "name_en": "Bluk Berry",
+      "status": "verified",
       "original": "Item_0702.png",
-      "webp": "items/item-0702.webp"
+      "webp": "items/item-0702.webp",
+      "item_id": 702
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "nanab-berry",
+      "name_en": "Nanab Berry",
+      "status": "verified",
       "original": "Item_0703.png",
-      "webp": "items/item-0703.webp"
+      "webp": "items/item-0703.webp",
+      "item_id": 703
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "wepar-berry",
+      "name_en": "Wepar Berry",
+      "status": "verified",
       "original": "Item_0704.png",
-      "webp": "items/item-0704.webp"
+      "webp": "items/item-0704.webp",
+      "item_id": 704
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "pinap-berry",
+      "name_en": "Pinap Berry",
+      "status": "verified",
       "original": "Item_0705.png",
-      "webp": "items/item-0705.webp"
+      "webp": "items/item-0705.webp",
+      "item_id": 705
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "golden-razz-berry",
+      "name_en": "Golden Razz Berry",
+      "status": "verified",
       "original": "Item_0706.png",
-      "webp": "items/item-0706.webp"
+      "webp": "items/item-0706.webp",
+      "item_id": 706
     },
     {
       "slug": null,
@@ -660,51 +735,51 @@
       "webp": "items/item-1609.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-icon",
+      "name_en": "Coin icon",
+      "status": "source_named",
       "original": "Item_COIN_01.png",
       "webp": "items/item-coin-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-box-image",
+      "name_en": "Coin box image",
+      "status": "source_named",
       "original": "Item_COIN_BOX_01.png",
       "webp": "items/item-coin-box-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-bucket-image",
+      "name_en": "Coin bucket image",
+      "status": "source_named",
       "original": "Item_COIN_BUCKET_01.png",
       "webp": "items/item-coin-bucket-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-handful-image",
+      "name_en": "Handful of coins image",
+      "status": "source_named",
       "original": "Item_COIN_HANDFUL_01.png",
       "webp": "items/item-coin-handful-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-heap-image",
+      "name_en": "Heap of coins image",
+      "status": "source_named",
       "original": "Item_COIN_HEAP_01.png",
       "webp": "items/item-coin-heap-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-pouch-image",
+      "name_en": "Coin pouch image",
+      "status": "source_named",
       "original": "Item_COIN_POUCH_01.png",
       "webp": "items/item-coin-pouch-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "coin-stack-image",
+      "name_en": "Coin stack image",
+      "status": "source_named",
       "original": "Item_COIN_STACK_01.png",
       "webp": "items/item-coin-stack-01.webp"
     },
@@ -765,16 +840,16 @@
       "webp": "items/item-meteorite.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "pass-point-icon",
+      "name_en": "Pass Point icon",
+      "status": "source_named",
       "original": "item_pass_point_01.png",
       "webp": "items/item-pass-point-01.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "postcard-storage-upgrade",
+      "name_en": "Postcard Storage Upgrade",
+      "status": "source_named",
       "original": "Item_postcardstorageupgrade.1.png",
       "webp": "items/item-postcardstorageupgrade-1.webp"
     },
@@ -814,16 +889,16 @@
       "webp": "items/itemstorageupgrade-1.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "limited-incubator-3-pack-image",
+      "name_en": "Limited Incubator 3-pack image",
+      "status": "source_named",
       "original": "limited_incubatorx3.png",
       "webp": "items/limited-incubatorx3.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "limited-incubator-5-pack-image",
+      "name_en": "Limited Incubator 5-pack image",
+      "status": "source_named",
       "original": "limited_incubatorx5.png",
       "webp": "items/limited-incubatorx5.webp"
     },
@@ -877,16 +952,16 @@
       "webp": "items/masterball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "max-potion-10-pack-image",
+      "name_en": "Max Potion 10-pack image",
+      "status": "source_named",
       "original": "maxpotion_store.10.png",
       "webp": "items/maxpotion-store-10.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "max-revive-6-pack-image",
+      "name_en": "Max Revive 6-pack image",
+      "status": "source_named",
       "original": "maxrevive_store.6.png",
       "webp": "items/maxrevive-store-6.webp"
     },
@@ -919,23 +994,23 @@
       "webp": "items/poffin-5.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "poke-ball-100-pack-image",
+      "name_en": "Poké Ball 100-pack image",
+      "status": "source_named",
       "original": "pokeball_store.100.png",
       "webp": "items/pokeball-store-100.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "poke-ball-200-pack-image",
+      "name_en": "Poké Ball 200-pack image",
+      "status": "source_named",
       "original": "pokeball_store.200.png",
       "webp": "items/pokeball-store-200.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "poke-ball-store-image",
+      "name_en": "Poké Ball shop image",
+      "status": "source_named",
       "original": "pokeball_store.png",
       "webp": "items/pokeball-store.webp"
     },
@@ -947,9 +1022,9 @@
       "webp": "items/pokeball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "pokemon-center-image",
+      "name_en": "Pokémon Center image",
+      "status": "source_named",
       "original": "Pokemon Center.png",
       "webp": "items/pokemon-center.webp"
     },
@@ -1010,23 +1085,23 @@
       "webp": "items/sparkly-incense.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "sponsored-gift-icon",
+      "name_en": "Sponsored Gift icon",
+      "status": "source_named",
       "original": "SponsoredGiftIcon.png",
       "webp": "items/sponsoredgifticon.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "stardust-painted-icon",
+      "name_en": "Stardust painted icon",
+      "status": "source_named",
       "original": "stardust_painted.png",
       "webp": "items/stardust-painted.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "stardust-vector-icon",
+      "name_en": "Stardust vector icon",
+      "status": "source_named",
       "original": "stardust_vector.png",
       "webp": "items/stardust-vector.webp"
     },
@@ -1052,16 +1127,16 @@
       "webp": "items/starpiece.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "super-incubator-3-pack-image",
+      "name_en": "Super Incubator 3-pack image",
+      "status": "source_named",
       "original": "super_incubatorx3.png",
       "webp": "items/super-incubatorx3.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "super-incubator-5-pack-image",
+      "name_en": "Super Incubator 5-pack image",
+      "status": "source_named",
       "original": "super_incubatorx5.png",
       "webp": "items/super-incubatorx5.webp"
     },
@@ -1073,16 +1148,16 @@
       "webp": "items/sword-fusionresource.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "giovanni-hideout-icon",
+      "name_en": "Giovanni hideout icon",
+      "status": "source_named",
       "original": "TR_hideout_icon_giovanni.png",
       "webp": "items/tr-hideout-icon-giovanni.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "rocket-leader-hideout-icon",
+      "name_en": "Team GO Rocket leader hideout icon",
+      "status": "source_named",
       "original": "TR_hideout_icon_leader.png",
       "webp": "items/tr-hideout-icon-leader.webp"
     },
@@ -1094,72 +1169,72 @@
       "webp": "items/triple-stat-increase.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "lure-module-15-bundle-image",
+      "name_en": "Lure Module 15-pack image",
+      "status": "source_named",
       "original": "TroyKey.15.png",
       "webp": "items/troykey-15.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "glacial-lure-module",
+      "name_en": "Glacial Lure Module",
+      "status": "source_named",
       "original": "TroyKey_glacial.png",
       "webp": "items/troykey-glacial.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "magnetic-lure-module",
+      "name_en": "Magnetic Lure Module",
+      "status": "source_named",
       "original": "TroyKey_magnetic.png",
       "webp": "items/troykey-magnetic.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "mossy-lure-module",
+      "name_en": "Mossy Lure Module",
+      "status": "source_named",
       "original": "TroyKey_moss.png",
       "webp": "items/troykey-moss.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "rainy-lure-module",
+      "name_en": "Rainy Lure Module",
+      "status": "source_named",
       "original": "TroyKey_rainy.png",
       "webp": "items/troykey-rainy.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "sparkly-lure-icon",
+      "name_en": "Sparkly lure visual (unconfirmed item identity)",
+      "status": "source_named",
       "original": "TroyKey_sparkly.png",
       "webp": "items/troykey-sparkly.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "lure-module-icon",
+      "name_en": "Lure Module icon",
+      "status": "source_named",
       "original": "TroyKey.png",
       "webp": "items/troykey.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "ar-camera-ui-icon",
+      "name_en": "AR photo camera UI icon",
+      "status": "source_named",
       "original": "tx_ar_photo_camera.png",
       "webp": "items/tx-ar-photo-camera.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "converter-icon-asset",
+      "name_en": "Converter visual asset",
+      "status": "source_named",
       "original": "tx_converter.png",
       "webp": "items/tx-converter.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "follower-item-effect-asset",
+      "name_en": "Follower item effect asset",
+      "status": "source_named",
       "original": "tx_FollowerItemFx.png",
       "webp": "items/tx-followeritemfx.webp"
     },
@@ -1185,30 +1260,30 @@
       "webp": "items/ultraball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "wild-ball-icon",
+      "name_en": "Wild Ball icon",
+      "status": "source_named",
       "original": "wildball_sprite.png",
       "webp": "items/wildball.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "wonder-box-buff-image",
+      "name_en": "Wonder Box buff image",
+      "status": "source_named",
       "original": "WonderBox_Buff.png",
       "webp": "items/wonderbox-buff.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "wonder-box-image",
+      "name_en": "Wonder Box image",
+      "status": "source_named",
       "original": "WonderBox.png",
       "webp": "items/wonderbox.webp"
     }
   ],
   "status_counts": {
-    "source_named": 45,
-    "needs_review": 113,
-    "verified": 6
+    "source_named": 106,
+    "needs_review": 45,
+    "verified": 13
   }
 }
