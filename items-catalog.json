@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "notes": "All 164 sprite paths preserved. verified=ID mapping corroborated by item-ID reference, source_named=descriptive source filename only, needs_review=do not infer. Names ending -image, -icon and -asset can be UI assets or store bundles, not individual reward items; do not use automatically as reward icons.",
+  "notes": "All 164 assets have a unique display label and lookup slug. verified: source-confirmed IDs/names; source_named: technical descriptive filename only; technical_only: no authoritative item identity established, never use as editorial reward. by_reward_slug includes only verified entries explicitly eligible. Non-verified assets must not be silently treated as official reward names.",
   "item_count": 164,
-  "verified_count": 119,
+  "verified_count": 21,
   "by_slug": {
     "potion": "items/item-0101.webp",
     "super-potion": "items/item-0102.webp",
@@ -122,7 +122,52 @@
     "follower-item-effect-asset": "items/tx-followeritemfx.webp",
     "wild-ball-icon": "items/wildball.webp",
     "wonder-box-buff-image": "items/wonderbox-buff.webp",
-    "wonder-box-image": "items/wonderbox.webp"
+    "wonder-box-image": "items/wonderbox.webp",
+    "other-evolution-stone-a-asset": "items/bag-other-stone-a.webp",
+    "egg-variant-a": "items/egg-a.webp",
+    "egg-variant-b": "items/egg-b.webp",
+    "egg-variant-c": "items/egg-c.webp",
+    "egg-variant-d": "items/egg-d.webp",
+    "incubator-egg-variant-a": "items/eggincubator-egg-a.webp",
+    "incubator-egg-variant-b": "items/eggincubator-egg-b.webp",
+    "incubator-egg-variant-c": "items/eggincubator-egg-c.webp",
+    "incubator-egg-variant-d": "items/eggincubator-egg-d.webp",
+    "golden-nanab-berry": "items/item-0707.webp",
+    "fast-tm": "items/item-1201.webp",
+    "charged-tm": "items/item-1202.webp",
+    "elite-fast-tm-candidate": "items/item-1203.webp",
+    "elite-charged-tm-candidate": "items/item-1204.webp",
+    "rare-candy": "items/item-1301.webp",
+    "item-1350": "items/item-1350.webp",
+    "item-1351": "items/item-1351.webp",
+    "raid-pass": "items/item-1401.webp",
+    "premium-raid-pass-pack-3-image": "items/item-1402-3.webp",
+    "premium-raid-pass-pack-5-image": "items/item-1402-5.webp",
+    "premium-battle-pass": "items/item-1402.webp",
+    "legendary-raid-ticket-legacy": "items/item-1403.webp",
+    "item-1404": "items/item-1404.webp",
+    "team-medallion": "items/item-1406.webp",
+    "item-1408-variant-3": "items/item-1408-3.webp",
+    "item-1408-variant-5": "items/item-1408-5.webp",
+    "item-1408": "items/item-1408.webp",
+    "item-1600": "items/item-1600.webp",
+    "item-1601": "items/item-1601.webp",
+    "item-1602": "items/item-1602.webp",
+    "item-1606": "items/item-1606.webp",
+    "item-1607": "items/item-1607.webp",
+    "item-1609": "items/item-1609.webp",
+    "maple-item-a-asset": "items/item-maple-a.webp",
+    "maple-item-b-asset": "items/item-maple-b.webp",
+    "maple-item-c-asset": "items/item-maple-c.webp",
+    "lucky-friend-applicator": "items/lucky-friend-applicator.webp",
+    "xl-candy-lv40-artwork": "items/lv40-xlcandy-rgb-psd.webp",
+    "maple-tappable-icon": "items/maple-tappable-icon.webp",
+    "max-particles-multi-pack-asset": "items/mp-pack-mulit.webp",
+    "fusion-resource-shield-icon": "items/shield-fusionresource.webp",
+    "single-stat-increase-asset": "items/single-stat-increase.webp",
+    "sparkly-incense-asset": "items/sparkly-incense.webp",
+    "fusion-resource-sword-icon": "items/sword-fusionresource.webp",
+    "triple-stat-increase-asset": "items/triple-stat-increase.webp"
   },
   "items": [
     {
@@ -147,11 +192,13 @@
       "webp": "items/bag-metal-coat.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "other-evolution-stone-a-asset",
+      "name_en": "Other Evolution Stone A (asset code)",
+      "status": "source_named",
       "original": "Bag_Other_Stone_A_Sprite.png",
-      "webp": "items/bag-other-stone-a.webp"
+      "webp": "items/bag-other-stone-a.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "sinnoh-stone",
@@ -238,32 +285,40 @@
       "webp": "items/egg-7km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-variant-a",
+      "name_en": "Egg, variant A",
+      "status": "source_named",
       "original": "Egg_A.png",
-      "webp": "items/egg-a.webp"
+      "webp": "items/egg-a.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-variant-b",
+      "name_en": "Egg, variant B",
+      "status": "source_named",
       "original": "Egg_B.png",
-      "webp": "items/egg-b.webp"
+      "webp": "items/egg-b.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-variant-c",
+      "name_en": "Egg, variant C",
+      "status": "source_named",
       "original": "Egg_C.png",
-      "webp": "items/egg-c.webp"
+      "webp": "items/egg-c.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "egg-variant-d",
+      "name_en": "Egg, variant D",
+      "status": "source_named",
       "original": "Egg_D.png",
-      "webp": "items/egg-d.webp"
+      "webp": "items/egg-d.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "egg-team-rocket",
@@ -301,32 +356,40 @@
       "webp": "items/eggincubator-egg-7km.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-egg-variant-a",
+      "name_en": "Egg in incubator, variant A",
+      "status": "source_named",
       "original": "EggIncubator_Egg_A.png",
-      "webp": "items/eggincubator-egg-a.webp"
+      "webp": "items/eggincubator-egg-a.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-egg-variant-b",
+      "name_en": "Egg in incubator, variant B",
+      "status": "source_named",
       "original": "EggIncubator_Egg_B.png",
-      "webp": "items/eggincubator-egg-b.webp"
+      "webp": "items/eggincubator-egg-b.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-egg-variant-c",
+      "name_en": "Egg in incubator, variant C",
+      "status": "source_named",
       "original": "EggIncubator_Egg_C.png",
-      "webp": "items/eggincubator-egg-c.webp"
+      "webp": "items/eggincubator-egg-c.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "incubator-egg-variant-d",
+      "name_en": "Egg in incubator, variant D",
+      "status": "source_named",
       "original": "EggIncubator_Egg_D.png",
-      "webp": "items/eggincubator-egg-d.webp"
+      "webp": "items/eggincubator-egg-d.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "incubator-with-12km-egg",
@@ -567,172 +630,220 @@
       "item_id": 706
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "golden-nanab-berry",
+      "name_en": "Golden Nanab Berry",
+      "status": "verified",
       "original": "Item_0707.png",
-      "webp": "items/item-0707.webp"
+      "webp": "items/item-0707.webp",
+      "identification_basis": "id_707",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "fast-tm",
+      "name_en": "Fast TM",
+      "status": "verified",
       "original": "Item_1201.png",
-      "webp": "items/item-1201.webp"
+      "webp": "items/item-1201.webp",
+      "identification_basis": "id_1201",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "charged-tm",
+      "name_en": "Charged TM",
+      "status": "verified",
       "original": "Item_1202.png",
-      "webp": "items/item-1202.webp"
+      "webp": "items/item-1202.webp",
+      "identification_basis": "id_1202",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "elite-fast-tm-candidate",
+      "name_en": "TM type 1203 (possible Elite Fast TM)",
+      "status": "technical_only",
       "original": "Item_1203.png",
-      "webp": "items/item-1203.webp"
+      "webp": "items/item-1203.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "elite-charged-tm-candidate",
+      "name_en": "TM type 1204 (possible Elite Charged TM)",
+      "status": "technical_only",
       "original": "Item_1204.png",
-      "webp": "items/item-1204.webp"
+      "webp": "items/item-1204.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "rare-candy",
+      "name_en": "Rare Candy",
+      "status": "verified",
       "original": "Item_1301.png",
-      "webp": "items/item-1301.webp"
+      "webp": "items/item-1301.webp",
+      "identification_basis": "id_1301",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1350",
+      "name_en": "Unverified Pokémon GO asset: item_1350",
+      "status": "technical_only",
       "original": "item_1350.png",
-      "webp": "items/item-1350.webp"
+      "webp": "items/item-1350.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1351",
+      "name_en": "Unverified Pokémon GO asset: item_1351",
+      "status": "technical_only",
       "original": "item_1351.png",
-      "webp": "items/item-1351.webp"
+      "webp": "items/item-1351.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "raid-pass",
+      "name_en": "Raid Pass",
+      "status": "verified",
       "original": "Item_1401.png",
-      "webp": "items/item-1401.webp"
+      "webp": "items/item-1401.webp",
+      "identification_basis": "id_1401",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "premium-raid-pass-pack-3-image",
+      "name_en": "Raid pass 1402, image variant 3 (bundle identification unverified)",
+      "status": "source_named",
       "original": "Item_1402_3.png",
-      "webp": "items/item-1402-3.webp"
+      "webp": "items/item-1402-3.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "premium-raid-pass-pack-5-image",
+      "name_en": "Raid pass 1402, image variant 5 (bundle identification unverified)",
+      "status": "source_named",
       "original": "Item_1402_5.png",
-      "webp": "items/item-1402-5.webp"
+      "webp": "items/item-1402-5.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "premium-battle-pass",
+      "name_en": "Premium Battle Pass (formerly Premium Raid Pass)",
+      "status": "verified",
       "original": "Item_1402.png",
-      "webp": "items/item-1402.webp"
+      "webp": "items/item-1402.webp",
+      "identification_basis": "id_1402_legacy",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "legendary-raid-ticket-legacy",
+      "name_en": "Legendary Raid Ticket (historical internal ID)",
+      "status": "verified",
       "original": "Item_1403.png",
-      "webp": "items/item-1403.webp"
+      "webp": "items/item-1403.webp",
+      "identification_basis": "id_1403_legacy",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1404",
+      "name_en": "Unverified Pokémon GO asset: Item_1404",
+      "status": "technical_only",
       "original": "Item_1404.png",
-      "webp": "items/item-1404.webp"
+      "webp": "items/item-1404.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "team-medallion",
+      "name_en": "Team Medallion",
+      "status": "verified",
       "original": "Item_1406.png",
-      "webp": "items/item-1406.webp"
+      "webp": "items/item-1406.webp",
+      "identification_basis": "source_item_1406",
+      "reward_eligible": true
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1408-variant-3",
+      "name_en": "Item 1408, visual variant 3",
+      "status": "source_named",
       "original": "Item_1408_3.png",
-      "webp": "items/item-1408-3.webp"
+      "webp": "items/item-1408-3.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1408-variant-5",
+      "name_en": "Item 1408, visual variant 5",
+      "status": "source_named",
       "original": "Item_1408_5.png",
-      "webp": "items/item-1408-5.webp"
+      "webp": "items/item-1408-5.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1408",
+      "name_en": "Unverified Pokémon GO asset: Item_1408",
+      "status": "technical_only",
       "original": "Item_1408.png",
-      "webp": "items/item-1408.webp"
+      "webp": "items/item-1408.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1600",
+      "name_en": "Unverified Pokémon GO asset: item_1600",
+      "status": "technical_only",
       "original": "item_1600.png",
-      "webp": "items/item-1600.webp"
+      "webp": "items/item-1600.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1601",
+      "name_en": "Unverified Pokémon GO asset: item_1601",
+      "status": "technical_only",
       "original": "item_1601.png",
-      "webp": "items/item-1601.webp"
+      "webp": "items/item-1601.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1602",
+      "name_en": "Unverified Pokémon GO asset: item_1602",
+      "status": "technical_only",
       "original": "item_1602.png",
-      "webp": "items/item-1602.webp"
+      "webp": "items/item-1602.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1606",
+      "name_en": "Unverified Pokémon GO asset: item_1606",
+      "status": "technical_only",
       "original": "item_1606.png",
-      "webp": "items/item-1606.webp"
+      "webp": "items/item-1606.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1607",
+      "name_en": "Unverified Pokémon GO asset: item_1607",
+      "status": "technical_only",
       "original": "item_1607.png",
-      "webp": "items/item-1607.webp"
+      "webp": "items/item-1607.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "item-1609",
+      "name_en": "Unverified Pokémon GO asset: Item_1609",
+      "status": "technical_only",
       "original": "Item_1609.png",
-      "webp": "items/item-1609.webp"
+      "webp": "items/item-1609.webp",
+      "identification_basis": "unverified_numeric_asset",
+      "reward_eligible": false
     },
     {
       "slug": "coin-icon",
@@ -812,25 +923,31 @@
       "webp": "items/item-leader-mapcompass.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "maple-item-a-asset",
+      "name_en": "Maple evolution item A, asset code",
+      "status": "source_named",
       "original": "item_maple_a.png",
-      "webp": "items/item-maple-a.webp"
+      "webp": "items/item-maple-a.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "maple-item-b-asset",
+      "name_en": "Maple evolution item B, asset code",
+      "status": "source_named",
       "original": "item_maple_b.png",
-      "webp": "items/item-maple-b.webp"
+      "webp": "items/item-maple-b.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "maple-item-c-asset",
+      "name_en": "Maple evolution item C, asset code",
+      "status": "source_named",
       "original": "item_maple_c.png",
-      "webp": "items/item-maple-c.webp"
+      "webp": "items/item-maple-c.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "meteorite",
@@ -903,11 +1020,13 @@
       "webp": "items/limited-incubatorx5.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "lucky-friend-applicator",
+      "name_en": "Lucky Friend Applicator",
+      "status": "source_named",
       "original": "lucky_friend_applicator.png",
-      "webp": "items/lucky-friend-applicator.webp"
+      "webp": "items/lucky-friend-applicator.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "lucky-egg-pack-20",
@@ -931,18 +1050,22 @@
       "webp": "items/luckyegg.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "xl-candy-lv40-artwork",
+      "name_en": "XL Candy level-40 artwork",
+      "status": "source_named",
       "original": "LV40_XLCandy_RGB_PSD.png",
-      "webp": "items/lv40-xlcandy-rgb-psd.webp"
+      "webp": "items/lv40-xlcandy-rgb-psd.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "maple-tappable-icon",
+      "name_en": "Maple tappable icon",
+      "status": "source_named",
       "original": "maple_tappable_icon.png",
-      "webp": "items/maple-tappable-icon.webp"
+      "webp": "items/maple-tappable-icon.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "master-ball",
@@ -966,11 +1089,13 @@
       "webp": "items/maxrevive-store-6.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "max-particles-multi-pack-asset",
+      "name_en": "Max Particles multi-pack image",
+      "status": "source_named",
       "original": "mp_pack_mulit.png",
-      "webp": "items/mp-pack-mulit.webp"
+      "webp": "items/mp-pack-mulit.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "max-particles-pack",
@@ -1064,25 +1189,31 @@
       "webp": "items/rarexlcandy-psd.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "fusion-resource-shield-icon",
+      "name_en": "Fusion resource, shield artwork",
+      "status": "source_named",
       "original": "shield_fusionResource.png",
-      "webp": "items/shield-fusionresource.webp"
+      "webp": "items/shield-fusionresource.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "single-stat-increase-asset",
+      "name_en": "Single stat increase, asset icon",
+      "status": "source_named",
       "original": "single_stat_increase.png",
-      "webp": "items/single-stat-increase.webp"
+      "webp": "items/single-stat-increase.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "sparkly-incense-asset",
+      "name_en": "Sparkly Incense visual asset",
+      "status": "source_named",
       "original": "sparkly_incense.png",
-      "webp": "items/sparkly-incense.webp"
+      "webp": "items/sparkly-incense.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "sponsored-gift-icon",
@@ -1141,11 +1272,13 @@
       "webp": "items/super-incubatorx5.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "fusion-resource-sword-icon",
+      "name_en": "Fusion resource, sword artwork",
+      "status": "source_named",
       "original": "sword_fusionResource.png",
-      "webp": "items/sword-fusionresource.webp"
+      "webp": "items/sword-fusionresource.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "giovanni-hideout-icon",
@@ -1162,11 +1295,13 @@
       "webp": "items/tr-hideout-icon-leader.webp"
     },
     {
-      "slug": null,
-      "name_en": null,
-      "status": "needs_review",
+      "slug": "triple-stat-increase-asset",
+      "name_en": "Triple stat increase, asset icon",
+      "status": "source_named",
       "original": "triple_stat_increase.png",
-      "webp": "items/triple-stat-increase.webp"
+      "webp": "items/triple-stat-increase.webp",
+      "identification_basis": "filename_or_asset_code",
+      "reward_eligible": false
     },
     {
       "slug": "lure-module-15-bundle-image",
@@ -1282,8 +1417,31 @@
     }
   ],
   "status_counts": {
-    "source_named": 106,
-    "needs_review": 45,
-    "verified": 13
+    "source_named": 131,
+    "verified": 21,
+    "technical_only": 12
+  },
+  "named_count": 164,
+  "by_reward_slug": {
+    "potion": "items/item-0101.webp",
+    "super-potion": "items/item-0102.webp",
+    "hyper-potion": "items/item-0103.webp",
+    "max-potion": "items/item-0104.webp",
+    "revive": "items/item-0201.webp",
+    "max-revive": "items/item-0202.webp",
+    "incense": "items/item-0401.webp",
+    "razz-berry": "items/item-0701.webp",
+    "bluk-berry": "items/item-0702.webp",
+    "nanab-berry": "items/item-0703.webp",
+    "wepar-berry": "items/item-0704.webp",
+    "pinap-berry": "items/item-0705.webp",
+    "golden-razz-berry": "items/item-0706.webp",
+    "golden-nanab-berry": "items/item-0707.webp",
+    "fast-tm": "items/item-1201.webp",
+    "charged-tm": "items/item-1202.webp",
+    "rare-candy": "items/item-1301.webp",
+    "raid-pass": "items/item-1401.webp",
+    "premium-battle-pass": "items/item-1402.webp",
+    "team-medallion": "items/item-1406.webp"
   }
 }
