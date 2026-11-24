@@ -1,0 +1,80 @@
+name: Importar icones de tipos WebP lossless
+
+on:
+  push:
+    branches: [otimizar-tipos-webp]
+    paths: [.github/workflows/importar-tipos-webp.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: importar-tipos-webp
+  cancel-in-progress: false
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Instalar WebP e Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y webp
+          python -m pip install --disable-pip-version-check pillow
+      - name: Converter e validar todos os pixels
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+          from urllib.request import urlopen
+          import os, subprocess
+          from PIL import Image
+          names = dict(ACO='steel', AGUA='water', DRAGAO='dragon', ELETRICO='electric', FADA='fairy', FANTASMA='ghost', FOGO='fire', GELO='ice', INSETO='bug', LUTADOR='fighting', NORMAL='normal', PEDRA='rock', PLANTA='grass', PSIQUICO='psychic', SOMBRIO='dark', TERRESTRE='ground', VENENOSO='poison', VOADOR='flying')
+          base = 'https://raw.githubusercontent.com/heypikachu/go/53aa4b7a4fadb189d969e3648070cd46c65549c3/'
+          dest = Path('tipos')
+          dest.mkdir(exist_ok=True)
+          rows = ['| Arquivo | PNG bytes | WebP bytes | Dimensões | Economia |', '|---|---:|---:|---|---:|']
+          a = b = 0
+          with TemporaryDirectory() as temp:
+              for pt, en in names.items():
+                  src = Path(temp) / f'{pt}.png'
+                  with urlopen(base + src.name, timeout=45) as r:
+                      data = r.read()
+                  src.write_bytes(data)
+                  out = dest / f'{en}.webp'
+                  if out.exists():
+                      raise RuntimeError(f'Arquivo já existe: {out}')
+                  subprocess.run(['cwebp','-quiet','-lossless','-exact','-m','6','-metadata','icc',str(src),'-o',str(out)],check=True)
+                  with Image.open(src) as original, Image.open(out) as converted:
+                      assert original.format == 'PNG' and converted.format == 'WEBP'
+                      assert original.size == converted.size
+                      assert original.convert('RGBA').tobytes() == converted.convert('RGBA').tobytes(), out
+                      size = f'{original.width}x{original.height}'
+                  x, y = src.stat().st_size, out.stat().st_size
+                  a += x
+                  b += y
+                  rows.append(f'| {out.name} | {x} | {y} | {size} | {100*(1-y/x):.1f}% |')
+          rows.append(f'| TOTAL | {a} | {b} | 18 arquivos | {100*(1-b/a):.1f}% |')
+          report = '\n'.join(rows)
+          print(report)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write(report+'\n')
+          PY
+      - name: Publicar apenas os 18 icones
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for type in steel water dragon electric fairy ghost fire ice bug fighting normal rock grass psychic dark ground poison flying; do
+            git add -- "tipos/$type.webp"
+          done
+          test "$(git diff --cached --name-only | wc -l)" -eq 18
+          git commit -m "Adiciona 18 icones de tipos WebP lossless"
+          git push origin HEAD:main
